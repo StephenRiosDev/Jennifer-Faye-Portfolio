@@ -1,12 +1,12 @@
 body {
-    font-size: 25px;
+    font-size: 18px;
     font-family: 'Monda', sans-serif;
     background-color: #f7f7f7;
 }
 
 #jen {
     float: left;
-    margin: 0px 25px 5px 0px;
+    margin: 0px 50px 5px 0px;
 }
 
 header {
@@ -21,6 +21,7 @@ h5,
 h6 {
     font-family: 'Julius Sans One', sans-serif;
     color: #456143;
+    text-align: center;
 }
 
 .pics {
@@ -40,22 +41,44 @@ h6 {
 .section.scrollspy {
   margin-top: 50px;
 }
+
+#resume {
+  float: right;
+  margin-right: 100px;
+  text-align: center;
+}
+
+#contact {
+  float: left;
+  margin-left: 100px;
+  text-align: center;
+}
+
 /* unvisited link */
 a:link {
-    color:#9abf94;
-  }
+  color:#9abf94;
+}
   
-  /* visited link */
-  a:visited {
-    color: #456143;
-  }
+/* visited link */
+a:visited {
+  color: #456143;
+}
   
-  /* mouse over link */
-  a:hover {
-    color: #456143;
-  }
+/* mouse over link */
+a:hover {
+  color: #456143;
+}
   
-  /* selected link */
-  a:active {
-    color: #fff69b;
-  }
+/* selected link */
+a:active {
+  color: #fff69b;
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+}
+
+#phone {
+  margin-top: 15px;
+}
