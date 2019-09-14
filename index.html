@@ -7,7 +7,7 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Monda&display=swap" rel="stylesheet">
     <!-- Link to CSS reset sheet-->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <!-- Link to CSS style sheet-->
@@ -20,66 +20,123 @@
 
 <body>
     <header>
-       <h2>Jennifer Faye</h2>
+        <h3>Jennifer Faye</h3>
     </header>
-    <div class="parallax-container z-depth-1" style="height: 250px;">
+    <!--Parallax-->
+    <div class="parallax-container z-depth-2" style="height: 250px;">
         <div class="parallax"><img src="assets/images/flower.jpg"></div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col s12 m9 l10">
-                <div id="about" class="section scrollspy">
-                    <h3>About</h3>
-                    <img id="jen" src="assets/images/jen.jpg"> 
-                    <div>
-                        I am currently enrolled in the University of Minnesota's coding bootcamp for full stack
-                        web development. After engaging in a variety of volunteer and paid work, as well as attending
-                        one year of college while being a stay-at-home parent, I decided to re-enter the workforce as a web
-                        developer.
-                    <br><br>
-                        I am creative, detail-oriented, and enjoy troubleshooting. I really enjoy the challenging, yet
-                        satisfying world of coding.
-                    <br><br>
-                        When not learning code, I like to go for walks by the river, photograph the fascinating and beautiful
-                        parts of the world, create art, and connect with friends.
-                    </div>
-                </div>
-            
-                <div id="portfolio" class="section scrollspy">
-                    <h3>Portfolio</h3>
-                </div>
 
-                <div id="resume" class="section scrollspy">
-                    <h3>Resume</h3>
-                </div>
-            
-                <div id="contact" class="section scrollspy">
-                    <h3>Contact</h3>
-                    <p><i class="small material-icons">email</i> <a href="mailto:jennifer.faye0101@gmail.com" target="_top">jennifer.faye0101@gmail.com</a></p>
-                    <br>
-                    <p><i class="small material-icons">phone_iphone</i> 763-258-6005</p>
-                    <br>
-                    <img src="assets/images/Li-logo.png" style="height: 30px;">
-                </div>
-            </div>
+    <div class="container">
+        <!--table of contents-->
+        <div id="contents-wrapper">
             <div class="col hide-on-small-only m3 l2">
                 <ul class="section table-of-contents">
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#Resume">Resume</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
+        <!--About-->
+        <div class="row">
+            <div class="col s12 m9 l10">
+                <div id="about" class="section scrollspy">
+                    <h4>About</h4>
+                    <img id="jen" class="z-depth-2" src="assets/images/jen.jpg">
+                    <div>
+                        I am currently enrolled in the University of Minnesota's coding bootcamp for full stack
+                        web development. After engaging in a variety of volunteer and paid work, as well as attending
+                        one year of college while being a stay-at-home parent, I decided to re-enter the workforce as a
+                        web
+                        developer.
+                        <br><br>
+                        I am creative, detail-oriented, and enjoy troubleshooting. I really enjoy the challenging, yet
+                        satisfying world of coding.
+                        <br><br>
+                        When not learning code, I like to go for walks by the river, photograph the fascinating and
+                        beautiful
+                        parts of the world, create art, and connect with friends.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Portfolio-->
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div id="portfolio" class="section scrollspy">
+                    <h4>Portfolio</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="portfolio-items">
+                <div class="col s12 m12 l6">
+                    <h5>Crystal Collector Game</h5>
+                    <img class="pics z-depth-2" src="assets/images/crystal.png">
+                    <br>
+                    <a href="#">This is a link</a>
+                    <br>
+                    <a href="#">This is a link</a>
+                </div>
+            </div>
+            <div class="portfolio-items">
+                <div class="col s12 m12 l6">
+                    <h5>GifTastic</h5>
+                    <img class="pics z-depth-2" src="assets/images/giphy.png">
+                    <br>
+                    <a href="#">This is a link</a>
+                    <br>
+                    <a href="#">This is a link</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="portfolio-items">
+                <div class="col s12 m12 l6">
+                    <h5>Mmm-Eat</h5>
+                    <img class="pics z-depth-2" src="assets/images/mmm-eat.png">
+                    <br>
+                    <a href="#">This is a link</a>
+                    <br>
+                    <a href="#">This is a link</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Resume-->
+        <div class="row">
+            <div id="resume" class="section scrollspy">
+                <h4>Resume</h4>
+            </div>
+        </div>
+        <!--Contact-->
+        <div class="row">
+            <div id="contact" class="section scrollspy">
+                <h4>Contact</h4>
+                <p><i class="small material-icons">email</i> <a href="mailto:jennifer.faye0101@gmail.com"
+                        target="_top">jennifer.faye0101@gmail.com</a></p>
+                <br>
+                <p><i class="small material-icons">phone_iphone</i> 763-258-6005</p>
+                <br>
+                <img src="assets/images/Li-logo.png" style="height: 25px;">
+            </div>
+        </div>
     </div>
-    <footer> 
-    </footer> 
-        <!-- Link to JQuery-->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <!-- Link to JavaScript File-->
-        <script src="assets/javascript/logic.js"></script>
-    
+
+
+
+    <footer>
+    </footer>
+    <!-- Link to JQuery-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Link to JavaScript File-->
+    <script src="assets/javascript/logic.js"></script>
+
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 body {
     font-size: 25px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Monda', sans-serif;
+    background-color: #f7f7f7;
 }
 
 #jen {
@@ -18,10 +19,27 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Tangerine', cursive;
+    font-family: 'Julius Sans One', sans-serif;
     color: #456143;
 }
 
+.pics {
+  width: 400px;
+  margin: 10px;
+}
+
+#contents-wrapper {
+  float: right;
+  margin-top: 25px;
+}
+
+.portfolio-items {
+  text-align: center;
+}
+
+.section.scrollspy {
+  margin-top: 50px;
+}
 /* unvisited link */
 a:link {
     color:#9abf94;
