@@ -24,6 +24,11 @@ h6 {
     text-align: center;
 }
 
+h4 {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
 .pics {
   width: 400px;
   margin: 10px;
@@ -40,18 +45,6 @@ h6 {
 
 .section.scrollspy {
   margin-top: 50px;
-}
-
-#resume {
-  float: right;
-  margin-right: 100px;
-  text-align: center;
-}
-
-#contact {
-  float: left;
-  margin-left: 100px;
-  text-align: center;
 }
 
 /* unvisited link */
@@ -79,8 +72,38 @@ footer {
   text-align: center;
 }
 
+#about {
+  margin-bottom: 75px;
+}
+
+#portfolio {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+#contact {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+#email {
+  position: relative;
+  top: 8px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+}
+
 #phone {
-  margin-top: 15px;
+  position: relative;
+  top: 8px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+}
+
+#linkedin {
+  position: relative;
+  top: 8px;
+  padding-right: 5px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -116,18 +139,6 @@ footer {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 25px;
-  }
-
-  #resume {
-    text-align: center;
-    float: none;
-    margin-right: auto;
-  }
-  
-  #contact {
-    text-align: center;
-    float: none;
-    margin-left: auto;
   }
 
 }
