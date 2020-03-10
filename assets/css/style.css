@@ -392,11 +392,6 @@ ul#skillSet li {
     margin-bottom: 25px;
   }
 
-  .card {
-    text-align: center;
-    width: 50%;
-  }
-
   #project2, #project3, #project4, #project5 {
     margin-top: 75px;
     margin-left: 0px;
@@ -407,7 +402,7 @@ ul#skillSet li {
   }
 
   #card-action1 {
-    margin-top: 245px;
+    margin-top: 210px;
   }
 
   #card-action2 {
@@ -428,7 +423,7 @@ ul#skillSet li {
 
   .card-content {
     font-size: 30px;
-    height: 260px;
+    height: 325px;
   }
 
   .card-title {
