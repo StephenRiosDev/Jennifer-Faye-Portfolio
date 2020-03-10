@@ -2,7 +2,7 @@
 
 A mobile responsive portfolio designed with Materialize.  
 
-<https://jennifer0101.github.io/Jennifer-Faye-Portfolio/>
+[Jennifer Faye's Portfolio](https://jennifer0101.github.io/Jennifer-Faye-Portfolio/)
 
 ## Description
 
