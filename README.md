@@ -6,18 +6,15 @@ A mobile responsive portfolio designed with Materialize.
 
 Displays the work of a web developer. Using Materialize Scrollspy, items are clicked on the navigation menu on the right side of the page and the website scrolls down the corresponding area. 
 
-![GitHub Logo](/images/SS_About.png)
-Format: ![Alt Text](url)
+![Image description](/images/SS_About.png)
 
 Projects are displayed in Materialize cards and can be opened to reveal more information and links to the projects and repositories. 
 
-![GitHub Logo](/images/SS_Projects.png)
-Format: ![Alt Text](url)
+![Image description](/images/SS_Projects.png)
 
 This project has a mobile responsive design and intuitive user interface.
 
-![GitHub Logo](/images/SS_Mobile.png)
-Format: ![Alt Text](url)
+![Image description](/images/SS_Mobile.png)
 
 ## Built With
 
