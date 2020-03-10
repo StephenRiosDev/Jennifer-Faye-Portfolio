@@ -2,6 +2,7 @@ body {
     font-size: 18px;
     font-family: 'Monda', sans-serif;
     background-color: #f7f7f7;
+    color: #606060;
 }
 
 #jen {
@@ -29,11 +30,6 @@ h4 {
   padding-bottom: 20px;
 }
 
-.pics {
-  width: 400px;
-  margin: 10px;
-}
-
 #contents-wrapper {
   float: right;
   margin-top: 25px;
@@ -51,7 +47,7 @@ h4 {
 #project1 {
   position: relative;
   float: left;
-  margin-right: 75px;
+  margin-right: 150px;
 }
 
 #project2 {
@@ -62,20 +58,14 @@ h4 {
 #project3 {
   position: relative;
   float: left;
-  margin-right: 75px;
-  margin-top: 50px;
+  margin-right: 150px;
+  margin-top: 75px;
 }
 
-#project4 {
+#project4, #project5 {
   position: relative;
   float: left;
-  margin-top: 50px;
-}
-
-#project5 {
-  position: relative;
-  float: left;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 .card-title {
@@ -109,7 +99,7 @@ h4 {
 }
 
 #card-action5 {
-  margin-top: 235px;
+  margin-top: 135px;
 }
 
 .content {
@@ -121,13 +111,8 @@ h4 {
   margin-top: 50px;
 }
 
-/* unvisited link */
-a:link {
-  color: #456143;
-}
-  
-/* visited link */
-a:visited {
+/* unvisited and visited link */
+a:link, a:visited {
   color: #456143;
 }
   
@@ -150,24 +135,12 @@ footer {
   margin-bottom: 75px;
 }
 
-#projects {
+#projects, #contact {
   margin-top: 75px;
   margin-bottom: 75px;
 }
 
-#contact {
-  margin-top: 75px;
-  margin-bottom: 75px;
-}
-
-#email {
-  position: relative;
-  top: 8px;
-  padding-right: 5px;
-  margin-bottom: 20px;
-}
-
-#phone {
+#email, #phone {
   position: relative;
   top: 8px;
   padding-right: 5px;
@@ -224,21 +197,147 @@ ul#skillSet li {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 1200px) {
-  .pics {
-    width: 375px;
+.table-of-contents a.active {
+  font-weight: 500 !important;
+  padding-left: 14px !important;
+  border-left: 2px solid #456143 !important;
+}
+
+.table-of-contents a:hover {
+  color: #456143 !important;
+  padding-left: 15px !important;
+  border-left: 1px solid #456143 !important;
+}
+
+@media only screen and (max-width: 1380px) {
+
+  #project1 {
+    position: relative;
+    float: left;
+    margin-right: 100px;
+  }
+  
+  #project2 {
+    position: relative;
+    float: left;
+  }
+  
+  #project3 {
+    position: relative;
+    float: left;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+  
+  #project4, #project5 {
+    position: relative;
+    float: left;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .card {
+    text-align: center;
+    width: 35%;
+  }
+
+  #project1 {
+    position: relative;
+    float: left;
+    margin-right: 75px;
+  }
+
+  #project2 {
+    position: relative;
+    float: left;
+  }
+
+  #project3 {
+    position: relative;
+    float: left;
+    margin-right: 75px;
+    margin-top: 25px;
+  }
+
+  #project4, #project5 {
+    position: relative;
+    float: left;
+    margin-top: 25px;
+  }
+
+  #card-action1 {
+    margin-top: 150px;
+  }
+
+  #card-action2 {
+    margin-top: 165px;
+  }
+  
+  #card-action3 {
+    margin-top: 130px;
+  }
+  
+  #card-action4 {
+    margin-top: 205px;
+  }
+  
+  #card-action5 {
+    margin-top: 85px;
   }
 }
 
 @media only screen and (max-width: 1100px) {
-  .pics {
-    width: 350px;
+  .card {
+    text-align: center;
+    width: 45%;
   }
-}
 
-@media only screen and (max-width: 1030px) {
-  .pics {
-    width: 325px;
+  #project1 {
+    position: relative;
+    clear: both;
+    margin-left: 50px;
+  }
+
+  #project2 {
+    margin-top: 25px;
+    position: relative;
+    clear: both;
+    margin-left: 50px;
+  }
+
+  #project3 {
+    margin-top: 25px;
+    position: relative;
+    clear: both;
+    margin-left: 50px;
+  }
+
+  #project4, #project5 {
+    margin-top: 25px;
+    position: relative;
+    clear: both;
+    margin-left: 50px;
+  }
+
+  #card-action1 {
+    margin-top: 235px;
+  }
+
+  #card-action2 {
+    margin-top: 235px;
+  }
+  
+  #card-action3 {
+    margin-top: 200px;
+  }
+  
+  #card-action4 {
+    margin-top: 270px;
+  }
+  
+  #card-action5 {
+    margin-top: 170px;
   }
 }
 
@@ -249,13 +348,39 @@ ul#skillSet li {
   }
 }
 
+@media only screen and (max-width: 670px) {
+  .card {
+    text-align: center;
+    width: 40%;
+  }
+
+  #card-action1 {
+    margin-top: 200px;
+  }
+
+  #card-action2 {
+    margin-top: 203px;
+  }
+  
+  #card-action3 {
+    margin-top: 165px;
+  }
+  
+  #card-action4 {
+    margin-top: 235px;
+  }
+  
+  #card-action5 {
+    margin-top: 135px;
+  }
+}
+
 @media only screen and (max-width: 623px) {
   ul#skillSet li {
     display: block;
     padding: 5px;
   }
 }
-
 
 @media only screen and (max-width: 600px) {
   #jen {
@@ -267,4 +392,54 @@ ul#skillSet li {
     margin-bottom: 25px;
   }
 
+  .card {
+    text-align: center;
+    width: 50%;
+  }
+
+  #project2, #project3, #project4, #project5 {
+    margin-top: 75px;
+    margin-left: 0px;
+  }
+
+  #project1 {
+    margin-left: 0px;
+  }
+
+  #card-action1 {
+    margin-top: 245px;
+  }
+
+  #card-action2 {
+    margin-top: 280px;
+  }
+  
+  #card-action3 {
+    margin-top: 220px;
+  }
+  
+  #card-action4 {
+    margin-top: 340px;
+  }
+  
+  #card-action5 {
+    margin-top: 155px;
+  }
+
+  .card-content {
+    font-size: 30px;
+    height: 260px;
+  }
+
+  .card-title {
+    font-size: 35px  !important;
+  }
+  
+  .card-content {
+    font-size: 30px;
+  }
+
+  .tech {
+    font-size: 30px;
+  }
 }
