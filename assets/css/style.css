@@ -402,39 +402,43 @@ ul#skillSet li {
   }
 
   #card-action1 {
-    margin-top: 210px;
+    margin-top: 270px;
   }
 
   #card-action2 {
-    margin-top: 280px;
+    margin-top: 330px;
   }
   
   #card-action3 {
-    margin-top: 220px;
+    margin-top: 275px;
   }
   
   #card-action4 {
-    margin-top: 340px;
+    margin-top: 385px;
   }
   
   #card-action5 {
-    margin-top: 155px;
+    margin-top: 215px;
   }
 
   .card-content {
     font-size: 30px;
-    height: 325px;
+    height: 400px;
   }
 
   .card-title {
-    font-size: 35px  !important;
+    font-size: 30px  !important;
   }
   
   .card-content {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .tech {
-    font-size: 30px;
+    font-size: 28px;
+  }
+
+  .card {
+    width: 35%;
   }
 }
