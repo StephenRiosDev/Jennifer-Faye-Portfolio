@@ -62,7 +62,8 @@ h4 {
   margin-top: 75px;
 }
 
-#project4, #project5 {
+#project4, 
+#project5 {
   position: relative;
   float: left;
   margin-top: 75px;
@@ -86,7 +87,8 @@ h4 {
   width: 40%;
 }
 
-#card-action1, #card-action2 {
+#card-action1, 
+#card-action2 {
   margin-top: 195px;
 }
 
@@ -229,7 +231,8 @@ ul#skillSet li {
     margin-top: 50px;
   }
   
-  #project4, #project5 {
+  #project4, 
+  #project5 {
     position: relative;
     float: left;
     margin-top: 50px;
@@ -260,7 +263,8 @@ ul#skillSet li {
     margin-top: 25px;
   }
 
-  #project4, #project5 {
+  #project4, 
+  #project5 {
     position: relative;
     float: left;
     margin-top: 25px;
@@ -313,7 +317,8 @@ ul#skillSet li {
     margin-left: 50px;
   }
 
-  #project4, #project5 {
+  #project4, 
+  #project5 {
     margin-top: 25px;
     position: relative;
     clear: both;
@@ -392,7 +397,10 @@ ul#skillSet li {
     margin-bottom: 25px;
   }
 
-  #project2, #project3, #project4, #project5 {
+  #project2, 
+  #project3, 
+  #project4, 
+  #project5 {
     margin-top: 75px;
     margin-left: 0px;
   }
