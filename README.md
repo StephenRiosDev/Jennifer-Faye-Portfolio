@@ -23,4 +23,3 @@ This project has a mobile responsive design and intuitive user interface.
 * HTML5
 * CSS3
 * Materialize
-
