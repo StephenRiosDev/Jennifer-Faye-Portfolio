@@ -16,7 +16,7 @@ This project has a mobile responsive design and intuitive user interface.
 
 ![Image description](assets/images/Screen-Options-JF.jpg)
 
-![Image description](assets/images/SS-Projects.png)
+![Image description](assets/images/SS_Projects.png)
 
 ## Technologies
 
