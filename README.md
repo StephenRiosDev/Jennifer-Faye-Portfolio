@@ -25,7 +25,7 @@ This project has a mobile responsive design and intuitive user interface.
 * Materialize 1.0.0
 
 ## Status
-Project is: finsihed and published. Adding new projects as they are completed. 
+Project is: finished and published. Adding new projects as they are completed. 
 
 ## Contact
 Created by [@jennifer0101](https://www.fayecreative.com) - feel free to contact me!
