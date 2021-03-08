@@ -69,6 +69,13 @@ h4 {
   margin-top: 75px;
 }
 
+#project6 {
+  position: relative;
+  float: left;
+  margin-top: 75px;
+  margin-left: 150px;
+}
+
 .card-title {
   font-family: 'Julius Sans One', sans-serif;
   color: #456143;
@@ -102,6 +109,10 @@ h4 {
 
 #card-action5 {
   margin-top: 135px;
+}
+
+#card-action6 {
+  margin-top: 200px;
 }
 
 .content {
