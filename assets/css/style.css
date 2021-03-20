@@ -11,13 +11,14 @@ body {
     margin-top: 50px;
     width: 150px;
     padding: 5px;
-    border: 1px solid #456143;
+    border: 2px solid #456143;
 }
 
 #blurb {
   text-align: left;
   margin: 100px 0px 0px 0px;
   font-size: 20px;
+  font-weight: bold ;
 }
 
 header {
@@ -37,7 +38,16 @@ h6 {
 
 h4 {
   text-align: left;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+}
+
+#copyright {
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  padding-top: 150px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 .overlay1 {
@@ -70,30 +80,40 @@ h4 {
 }
 
 #project-section {
-  background-color: #ecf1ec;
+  background-color: #d8e7d2;
   overflow: auto;
   line-height: 1;
 }
 
 #skills-section {
-  background-color: lightgrey;
+  background-color: white;
   overflow: auto;
 }
 
 #contact-section {
-  background-color: bisque;
+  background-color: #9ac494;
   overflow: auto;
 }
 
 #about {
-  margin-top: 75px;
-  margin-bottom: 75px;
-  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  /* margin-right: 50px; */
 }
 
-#projects, #skills, #contact {
+#projects, #skills {
   margin-top: 75px;
-  margin-bottom: 75px;
+  margin-bottom: 150px;
+}
+
+#contact {
+  margin-top: 75px;
+  margin-bottom: 10px;
+}
+
+.inner-wrapper {
+  margin-left: 75px;
+  margin-right: 150px;
 }
 
 /* scrollspy contents buttons */
@@ -208,11 +228,6 @@ a:hover {
 /* selected link */
 a:active {
   color: #fff69b;
-}
-
-footer {
-  padding: 25px;
-  text-align: center;
 }
 
 #email, #phone {
