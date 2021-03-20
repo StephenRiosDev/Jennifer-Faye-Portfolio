@@ -3,11 +3,21 @@ body {
     font-family: 'Monda', sans-serif;
     background-color: #f7f7f7;
     color: #606060;
+    line-height: 1.6;
 }
 
 #jen {
     float: left;
-    margin: 0px 50px 5px 0px;
+    margin-top: 50px;
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #456143;
+}
+
+#blurb {
+  text-align: left;
+  margin: 100px 0px 0px 0px;
+  font-size: 20px;
 }
 
 header {
@@ -30,11 +40,69 @@ h4 {
   padding-bottom: 20px;
 }
 
-#contents-wrapper {
-  float: right;
-  margin-top: 25px;
+.overlay1 {
+  margin: auto;
+  margin-top: 250px;
+  width: 70%;
+  font-family: 'Julius Sans One', sans-serif;
+  color: #456143;
+  font-size: 40px;
 }
 
+.overlay2 {
+  margin: auto;
+  margin-top: 15px;
+  width: 70%;
+  font-family: 'Monda', sans-serif;
+  color: #456143;
+  font-size: 24px;
+}
+
+/* page sections */
+#pic-section {
+  overflow: auto;
+  background-color: white;
+}
+
+#about-section {
+  background-color: white;
+  overflow: auto;
+}
+
+#project-section {
+  background-color: #ecf1ec;
+  overflow: auto;
+  line-height: 1;
+}
+
+#skills-section {
+  background-color: lightgrey;
+  overflow: auto;
+}
+
+#contact-section {
+  background-color: bisque;
+  overflow: auto;
+}
+
+#about {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  margin-right: 50px;
+}
+
+#projects, #skills, #contact {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+/* scrollspy contents buttons */
+#contents-wrapper {
+  float: right;
+  margin-top: 15px;
+}
+
+/* project cards */
 #cardContent {
   text-align: center;
   clear: both;
@@ -94,7 +162,10 @@ h4 {
   width: 40%;
 }
 
-#card-action1, 
+#card-action1 {
+  margin-top: 210px;
+}
+
 #card-action2 {
   margin-top: 195px;
 }
@@ -142,15 +213,6 @@ a:active {
 footer {
   padding: 25px;
   text-align: center;
-}
-
-#about {
-  margin-bottom: 75px;
-}
-
-#projects, #contact {
-  margin-top: 75px;
-  margin-bottom: 75px;
 }
 
 #email, #phone {

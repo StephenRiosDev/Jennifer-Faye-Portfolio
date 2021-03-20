@@ -21,30 +21,48 @@
 <body>
 
     <header>
-        <h3>Jennifer Faye</h3>
     </header>
 
     <!--Parallax-->
-    <div class="parallax-container z-depth-2 hide-on-small-only" style="height: 250px;">
+    <div class="parallax-container z-depth-1 hide-on-small-only" style="height: 650px;">
         <div class="parallax"><img src="assets/images/flower.jpg"></div>
+        <div class="overlay1">I'm Jennifer Faye</div>
+        <div class="overlay2">A full stack web developer with an eye for design.</div>
+    </div>
+    <div id="pic-section">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4 l2">
+                    <img id="jen" class="z-depth-1 circle" src="assets/images/Jen.jpg">
+                </div>
+                <div class="col s12 m4 l8">
+                    <p id="blurb">I am passionate about developing well designed websites; both aesthetically,
+                        <br>
+                        and with attention to user experience and mobile responsiveness.
+                    </p>
+                </div>
+                <div class="col s12 m4 l2">
+                    <!--table of contents-->
+                    <div id="contents-wrapper">
+                        <div class="col hide-on-small-only m3 l2">
+                            <ul class="section table-of-contents pushpin-demo-nav pinned">
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="https://docs.google.com/document/d/1s9vhyk3Z4IUGwLp1fxUAPLAbVsfRia0cHx67qVqZRKE/edit?usp=sharing"
+                                        target="_blank">Resume</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
     </div>
 
+
     <div class="container">
-
-        <!--table of contents-->
-        <div id="contents-wrapper">
-            <div class="col hide-on-small-only m3 l2">
-                <ul class="section table-of-contents pushpin-demo-nav pinned">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="https://docs.google.com/document/d/1s9vhyk3Z4IUGwLp1fxUAPLAbVsfRia0cHx67qVqZRKE/edit?usp=sharing"
-                            target="_blank">Resume</a></li>
-                </ul>
-            </div>
-        </div>
-
+       
         <!--sidenav-->
         <div id="sidebar-wrapper">
             <div class="col hide-on-med-and-up s12">
@@ -66,15 +84,19 @@
                 <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             </div>
         </div>
+    </div>
+
+<div id="about-section">
+    <div class="container">
 
         <!--About-->
         <div class="row">
-            <div class="col s12 m9 l10">
+            <div class="col s12 m12 l12">
                 <div id="about" class="section scrollspy">
                     <h4>About</h4>
-                    <img id="jen" class="z-depth-2 circle" src="assets/images/Jen.jpg">
+                    
                     <div>
-                        I'm a full stack web developer from St. Paul, Minnesota with a background in project management and leadership. I am
+                        I'm a full stack web developer with a background in project management and leadership. I am
                         passionate about developing well designed websites; both aesthetically, and with attention to
                         user experience and mobile responsiveness.
                         <br><br>
@@ -87,7 +109,10 @@
                 </div>
             </div>
         </div>
-
+    </div>
+</div>
+<div id="project-section" class="z-depth-1">
+    <div class="container">
         <!--Projects-->
         <div class="row">
             <div class="col s12 m12 l12">
@@ -289,7 +314,10 @@
                 </div>
             </div>
         </div>
-
+    </div>
+</div>
+<div id="skills-section" class="z-depth-1">
+    <div class="container">
         <!--Skills-->
         <div class="row">
             <div class="col s12 m12 l12">
@@ -305,7 +333,10 @@
                 </div>
             </div>
         </div>
-
+    </div>
+</div>
+<div id="contact-section" class="z-depth-1">
+    <div class="container">
         <!--Contact-->
         <div class="row">
             <div class="col s12 m12 l12">
@@ -326,13 +357,14 @@
                 </div>
             </div>
         </div>
-
     </div>
+</div>
 
+  
     <!--Parallax-->
-    <div class="parallax-container z-depth-2 hide-on-small-only" style="height: 250px;">
+    <!-- <div class="parallax-container z-depth-2 hide-on-small-only" style="height: 250px;">
         <div class="parallax"><img src="assets/images/trees.jpg"></div>
-    </div>
+    </div> -->
 
     <footer>
         <div class="footer-copyright">
