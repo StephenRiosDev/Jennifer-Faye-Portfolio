@@ -23,6 +23,7 @@
     <header>
     </header>
 
+<div id="home" class="section scrollspy"></div>
     <!--Parallax-->
     <div class="parallax-container z-depth-1 hide-on-small-only" style="height: 650px;">
         <div class="parallax"><img src="assets/images/flower.jpg"></div>
@@ -46,6 +47,7 @@
                     <div id="contents-wrapper">
                         <div class="col hide-on-small-only m3 l2">
                             <ul class="section table-of-contents pushpin-demo-nav pinned">
+                                <li><a href="#home">Home</a></li>
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#projects">Projects</a></li>
                                 <li><a href="#skills">Skills</a></li>
@@ -70,6 +72,7 @@
                     <div class="background">
                         <img src="assets/images/flower2.jpg">
                     </div>
+                    <li><a class="waves-effect" href="#home">Home</a></li>
                     <li><a class="waves-effect" href="#about">About</a></li>
                     <li><a class="waves-effect" href="#projects">Projects</a></li>
                     <li><a class="waves-effect" href="#skills">Skills</a></li>
@@ -85,7 +88,7 @@
             </div>
         </div>
     </div>
-
+</div>
 <div id="about-section">
     <div class="container">
 
@@ -318,13 +321,105 @@
             <div class="col s12 m12 l12">
                 <div id="skills" class="section scrollspy">
                     <h4>Skills</h4>
-                    <ul id="skillSet" class="inner-wrapper">
-                        <li class="listItems">HTML</li>
-                        <li class="listItems">CSS</li>
-                        <li class="listItems">JavaScript</li>
-                        <li class="listItems">React</li>
-                        <li class="listItems">MongoDb</li>
-                    </ul>
+                    <div class="inner-wrapper">
+                        <!-- HTML section -->
+                        <div class="rectangle z-depth-1">
+                            <div class="logo-title">
+                                <h5>HTML</h5>
+                                <hr>
+                            </div>
+                            <div class="wrap-logos">
+                                <div class="wrap-one">
+                                    <img src="assets/images/logo-html.png" class="each-logo">
+                                    <p>HTML5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CSS section -->
+                        <div class="rectangle z-depth-1">
+                            <div class="logo-title">
+                                <h5>CSS</h5>
+                                <hr>
+                            </div>
+                            <div class="wrap-logos">
+                                <div class="wrap-one">
+                                    <img src="assets/images/logo-css.png" class="each-logo">
+                                    <p>CSS3</p>
+                                </div>
+                                <div class="wrap-one">
+                                    <img src="assets/images/logo-materialize.png" class="each-logo">
+                                    <p>Materialize</p>
+                                </div>
+                                <div class="wrap-one">
+                                    <img src="assets/images/logo-bootstrap.png" class="each-logo">
+                                    <p>Bootstrap</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Javascript section -->
+                        <div class="rectangle z-depth-1">
+                            <div class="logo-title">
+                                <h5>JavaScript</h5>
+                                <hr>
+                            </div>
+                            <div class="wrap-logos">
+                                <div class="wrap-one">
+                                    <img src="assets/images/logo-javascript.png" class="each-logo">
+                                    <p>JavaScript</p>
+                                </div>
+                                <div class="wrap-one">
+                                    <img src="assets/images/logo-jquery.png" class="each-logo">
+                                    <p>JQuery</p>
+                                </div>
+                                <div class="wrap-one">
+                                    <img src="assets/images/logo-react.png" class="each-logo">
+                                    <p>React</p>
+                                </div>
+                                <div class="wrap-one">
+                                    <img src="assets/images/logo-node.png" class="each-logo">
+                                    <p>Node</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Databases section -->
+                        <div class="rectangle z-depth-1">
+                            <div class="logo-title">
+                                <h5>Databases</h5>
+                                <hr>
+                            </div>
+                            <div class="wrap-logos">
+                                <div class="wrap-one">
+                                    <img src="assets/images/logo-mysql.png" class="each-logo">
+                                    <p>MySQL</p>
+                                </div>
+                                <div class="wrap-one">
+                                    <img src="assets/images/logo-mongo.png" class="each-logo">
+                                    <p>MongoDB</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Other -->
+                        <div class="rectangle z-depth-1">
+                            <div class="logo-title">
+                                <h5>Other</h5>
+                                <hr>
+                            </div>
+                            <div class="wrap-logos">
+                                <div class="wrap-one">
+                                    <img src="assets/images/logo-wordpress.png" class="each-logo">
+                                    <p>Wordpress</p>
+                                </div>
+                                <div class="wrap-one">
+                                    <img src="assets/images/logo-photoshop.png" class="each-logo">
+                                    <p>Photoshop</p>
+                                </div>
+                                <div class="wrap-one">
+                                    <img src="assets/images/logo-finalcut.png" class="each-logo">
+                                    <p>Final Cut Pro</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -340,16 +435,16 @@
                     <h4>Contact</h4>
                     <div class="center-align">
                         <img id="logo-jf" class="z-depth-1 circle" src="assets/images/jf-logo.png">
-                    </div>
-                    <div class="inner-wrapper center-align">
-                        <div id="email-link">
-                            <a href="mailto:jennifer@fayecreative.com" target="_top">jennifer@fayecreative.com</a>
-                        </div>
-                            <a href="tel:7632586005"><i id="phone" class="small material-icons">phone_iphone</i></a> 
-                            <a href="https://github.com/jennifer0101" target="_blank" id="github-change"><img src="assets/images/github.png" id="github"></a>
-                            <a href="https://www.linkedin.com/in/jennifer-faye" target="_blank" id="linkedin-change"><img src="assets/images/LI-In-Bug.png" id="linkedin"></a>
-                        <div id="copyright">
-                        &copy; 2020 Jennifer Faye
+                        <div class="inner-wrapper">
+                            <div id="email-link">
+                                <a href="mailto:jennifer@fayecreative.com" target="_top">jennifer@fayecreative.com</a>
+                            </div>
+                                <a href="tel:7632586005"><i id="phone" class="small material-icons">phone_iphone</i></a> 
+                                <a href="https://github.com/jennifer0101" target="_blank" id="github-change"><img src="assets/images/github.png" id="github"></a>
+                                <a href="https://www.linkedin.com/in/jennifer-faye" target="_blank" id="linkedin-change"><img src="assets/images/LI-In-Bug.png" id="linkedin"></a>
+                                <div id="copyright">
+                            &copy; 2020 Jennifer Faye
+                            </div>
                         </div>
                     </div>
                 </div>

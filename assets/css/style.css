@@ -20,7 +20,7 @@ body {
   width: 100px;
   padding: 5px;
   border: 2px solid #456143;
-  background-color: lightyellow;
+  background-color: white;
   position:relative;
   right: 45px;
 }
@@ -30,33 +30,6 @@ body {
   margin: 100px 0px 0px 0px;
   font-size: 20px;
   font-weight: bold ;
-}
-
-header {
-    text-align: center;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Julius Sans One', sans-serif;
-    color: #456143;
-    text-align: center;
-}
-
-h4 {
-  text-align: left;
-  padding-bottom: 40px;
-}
-
-#copyright {
-  color: white;
-  font-size: 16px;
-  padding-top: 60px;
-  margin-bottom: 5px;
 }
 
 .overlay1 {
@@ -75,6 +48,53 @@ h4 {
   font-family: 'Monda', sans-serif;
   color: #456143;
   font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #456143;
+    text-align: center;
+}
+
+h5 {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #456143;
+  text-align: left;
+}
+
+h4 {
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.rectangle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+}
+
+.each-logo {
+  height: 60px;
+}
+
+.logo-title {
+  padding: 20px;
+}
+
+.wrap-one {
+  text-align: center;
+  padding: 20px;
+}
+
+.wrap-logos {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
 }
 
 /* page sections */
@@ -102,6 +122,10 @@ h4 {
 #contact-section {
   background-color: #adc5ab;
   overflow: auto;
+}
+
+#home {
+  margin-top: -30px;
 }
 
 #about {
@@ -323,6 +347,13 @@ ul#skillSet li {
   color: #456143 !important;
   padding-left: 15px !important;
   border-left: 1px solid #456143 !important;
+}
+
+#copyright {
+  color: white;
+  font-size: 16px;
+  padding-top: 60px;
+  margin-bottom: 5px;
 }
 
 
