@@ -268,6 +268,7 @@ a:active {
 
 .each-logo {
   height: 60px;
+  padding-bottom: 5px;
 }
 
 .logo-title {
@@ -334,12 +335,19 @@ a:active {
 #copyright {
   color: white;
   font-size: 16px;
-  padding-top: 60px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #contact-icons {
   margin-top: 30px;
   margin-bottom: 20px;
+}
+
+footer {
+  background-color: #89a083;
+  overflow: auto;
 }
 
   /* changes link icons white on hover */
