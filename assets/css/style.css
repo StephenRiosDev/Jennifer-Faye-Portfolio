@@ -46,13 +46,12 @@ a:active {
   /* navbar scrollspy contents buttons */
 #contents-wrapper {
   overflow: hidden;
-  float: right;
+  float: left;
 }
 
 .sticky {
   position: fixed;
   top: 0;
-  left: 77.5%;
   width: 100%;
 }
 
