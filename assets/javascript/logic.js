@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $(this).scrollTop(0);
     $('.scrollspy').scrollSpy();
     $('.parallax').parallax();
     $('.sidenav').sidenav();
