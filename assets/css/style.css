@@ -7,11 +7,7 @@ body {
   line-height: 1.6;
 }
 
-h1,
-h2,
-h3,
-h4,
-h6 {
+h1, h2, h3, h4, h6 {
     font-family: 'Julius Sans One', sans-serif;
     color: #456143;
     text-align: center;
@@ -72,6 +68,23 @@ a:active {
   border-left: 1px solid #456143 !important;
 }
 
+  /* sidenav settings */
+#sidebar-wrapper {
+  float: left;
+  margin: 20px 0 0 20px ;
+}
+
+.sideStick {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sideStick + .content {
+  padding-top: 60px;
+}
+
+
   /* page sections */
 #pic-section, #about-section, #skills-section {
   overflow: auto;
@@ -122,28 +135,47 @@ a:active {
 
 #blurb {
   text-align: left;
-  margin: 100px 0px 0px 0px;
+  margin: 80px 5% 0 12%;
   font-size: 20px;
   font-weight: bold ;
 }
 
-  /* text over parallax name  */
+  /* text over parallax name for med, large  */
 .overlay1 {
   margin: auto;
-  margin-top: 250px;
+  margin-top: 220px;
   width: 70%;
   font-family: 'Julius Sans One', sans-serif;
   color: #456143;
-  font-size: 40px;
+  font-size: 72px;
 }
-  /* text over parallax description  */
+  /* text over parallax description for med, large */
 .overlay2 {
   margin: auto;
   margin-top: 15px;
   width: 70%;
   font-family: 'Monda', sans-serif;
   color: #456143;
-  font-size: 24px;
+  font-size: 26px;
+}
+
+/* text over parallax name for small  */
+.overlay3 {
+    margin: auto;
+    margin-top: 60px;
+    width: 70%;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #456143;
+    font-size: 56px;
+}
+  /* text over parallax description for small */
+.overlay4 {
+    margin: auto;
+    margin-top: 15px;
+    width: 70%;
+    font-family: 'Monda', sans-serif;
+    color: #456143;
+    font-size: 20px;
 }
 
 /* ABOUT SECTION  */
@@ -262,6 +294,7 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 75px;
+  width: 70%;
   background-color: #FFFEFA;
 }
 
@@ -291,8 +324,8 @@ a:active {
 }
 
 #logo-jf {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 40px;
+  margin-bottom: 80px;
   width: 100px;
   padding: 5px;
   border: 2px solid #456143;
@@ -340,7 +373,7 @@ a:active {
 }
 
 #contact-icons {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -359,7 +392,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 1380px) {
+/* @media only screen and (max-width: 1380px) {
 
   #project1 {
     position: relative;
@@ -597,4 +630,4 @@ footer {
   .card {
     width: 35%;
   }
-}
+} */
