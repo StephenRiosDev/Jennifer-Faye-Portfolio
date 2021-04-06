@@ -64,8 +64,8 @@ a:active {
     /* navbar hover */
 .table-of-contents a:hover {
   color: #456143 !important;
-  padding-left: 15px !important;
-  border-left: 1px solid #456143 !important;
+  padding-left: 11px !important;
+  border-left: 5px solid #456143 !important;
 }
 
   /* sidenav settings */
