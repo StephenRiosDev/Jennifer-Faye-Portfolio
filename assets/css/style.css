@@ -135,7 +135,7 @@ a:active {
 
 #blurb {
   text-align: left;
-  margin: 80px 5% 0 12%;
+  margin: 80px 5% 0 5%;
   font-size: 20px;
   font-weight: bold ;
 }
@@ -346,6 +346,27 @@ footer {
   filter:  brightness(0) invert(1);
 }
 
+@media only screen and (max-width: 1401px) {
+  #blurb {
+    margin: 80px 0 0 12%;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  #blurb {
+    margin: 80px 0 0 15%;
+  }
+
+  .overlay1 {
+    font-size: 69px;
+  }
+
+  .overlay2 {
+    font-size: 25px;
+  }
+
+}
+
 @media only screen and (max-width: 992px) {
   #project2,
   #project4,
@@ -359,3 +380,4 @@ footer {
     margin-bottom: 30px;
   }
 }
+
