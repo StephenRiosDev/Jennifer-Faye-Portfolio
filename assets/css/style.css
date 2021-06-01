@@ -186,13 +186,12 @@ a:active {
   font-family: 'Julius Sans One', sans-serif;
   color: #456143;
   text-align: left;
-  /* font-size: 20px  !important; */
+  font-size: 20px !important;
 }
 
 .card-content {
   font-family: 'Monda', sans-serif;
   text-align: left;
-  /* height: 500px; */
 }
 
 .card {
@@ -248,9 +247,7 @@ a:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* margin-bottom: 75px; */
   width: 90%;
-  /* min-width: 425px; */
   background-color: #FFFEFA;
 }
 
@@ -379,11 +376,6 @@ footer {
   #project5{
     margin-bottom: 30px;
   }
-  
-  #contact {
-    /* margin-top: 50px;
-    margin-bottom: 20px; */
-  }
 }
 
 @media only screen and (max-width: 599px) {
@@ -396,3 +388,22 @@ footer {
   } 
 }
 
+@media only screen and (max-width: 412px) {
+  .btn-floating {
+    margin: 5px 20px 5px 20px;
+  }
+
+  .tech {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .card-title {
+    font-size: 16px !important;
+  }
+
+  .card-content {
+    font-size: 14px !important;
+  }
+}
