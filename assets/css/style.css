@@ -186,13 +186,13 @@ a:active {
   font-family: 'Julius Sans One', sans-serif;
   color: #456143;
   text-align: left;
-  font-size: 20px  !important;
+  /* font-size: 20px  !important; */
 }
 
 .card-content {
   font-family: 'Monda', sans-serif;
   text-align: left;
-  height: 220px;
+  /* height: 500px; */
 }
 
 .card {
@@ -379,5 +379,20 @@ footer {
   #project5{
     margin-bottom: 30px;
   }
+  
+  #contact {
+    /* margin-top: 50px;
+    margin-bottom: 20px; */
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .each-logo {
+    height: 40px;
+  }
+  
+  .wrap-one {
+    font-size: 8px;
+  } 
 }
 
