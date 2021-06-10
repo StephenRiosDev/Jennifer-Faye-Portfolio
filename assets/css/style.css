@@ -379,6 +379,16 @@ footer {
   }
 }
 
+@media only screen and (max-width: 669px) {
+  .overlay3 {
+    font-size: 7vw;
+}
+
+  .overlay4 {
+    font-size: 3vw;
+}
+}
+
 @media only screen and (max-width: 599px) {
   .each-logo {
     height: 40px;
