@@ -84,14 +84,18 @@ a:active {
   padding-top: 60px;
 }
 
+.sideStick a:hover {
+  color: #bdbbbb !important
+}
+
 
   /* page sections */
-#pic-section, #about-section, #skills-section {
+#pic-section, #about-section, #project-section {
   overflow: auto;
   background-color: white;
 }
 
-#project-section {
+#skills-section {
   overflow: auto;
   background-color: #d8e7d2;
   line-height: 1;
