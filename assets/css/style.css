@@ -212,12 +212,18 @@ a:active {
   margin-left: 20px;
 }
 
+#project7 {
+  margin-top: 20px;
+}
+
+
 #card-action1,
 #card-action2,
 #card-action3,
 #card-action4,
 #card-action5,
-#card-action6 {
+#card-action6, 
+#card-action7 {
   position: absolute;
   width: 100%;
   left: 0%;
@@ -244,6 +250,14 @@ a:active {
 .tech {
   text-align: left;
   margin-top: 20px;
+}
+   /* hover color for card open trigger */
+i.material-icons.right {
+  color: #456143;
+}
+
+i.material-icons.right:hover {
+  color: #d8e7d2;
 }
 
  
