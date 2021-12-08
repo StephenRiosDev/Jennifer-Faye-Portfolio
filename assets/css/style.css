@@ -363,6 +363,12 @@ footer {
   }
 }
 
+@media only screen and (max-width: 1132px) {
+  .card-content {
+  height: 300px;
+}
+}
+
 @media only screen and (max-width: 1060px) {
   #blurb {
     margin: 80px 0 0 15%;
