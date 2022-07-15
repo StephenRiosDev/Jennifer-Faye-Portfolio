@@ -169,7 +169,7 @@ a:active {
     margin-top: 60px;
     width: 70%;
     font-family: 'Julius Sans One', sans-serif;
-    color: #456143;
+    color: white;
     font-size: 56px;
 }
   /* text over parallax description for small */
@@ -178,7 +178,7 @@ a:active {
     margin-top: 15px;
     width: 70%;
     font-family: 'Monda', sans-serif;
-    color: #456143;
+    color: white;
     font-size: 20px;
 }
 
