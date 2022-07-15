@@ -102,7 +102,7 @@ a:active {
 }
 
 #contact-section {
-  background-color: #adc5ab;
+  background-color: #d8e7d2;
   overflow: auto;
 }
 
@@ -150,7 +150,7 @@ a:active {
   margin-top: 220px;
   width: 70%;
   font-family: 'Julius Sans One', sans-serif;
-  color: #456143;
+  color: white;
   font-size: 72px;
 }
   /* text over parallax description for med, large */
@@ -159,7 +159,7 @@ a:active {
   margin-top: 15px;
   width: 70%;
   font-family: 'Monda', sans-serif;
-  color: #456143;
+  color: white;
   font-size: 26px;
 }
 
@@ -344,7 +344,7 @@ i.material-icons.right:hover {
 }
 
 footer {
-  background-color: #89a083;
+  background-color: #43736e;
   overflow: auto;
 }
 
