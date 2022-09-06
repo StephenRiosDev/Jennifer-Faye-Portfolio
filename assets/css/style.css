@@ -147,39 +147,43 @@ a:active {
   /* text over parallax name for med, large  */
 .overlay1 {
   margin: auto;
-  margin-top: 220px;
+  margin-top: 25vh;
   width: 70%;
   font-family: 'Julius Sans One', sans-serif;
   color: white;
-  font-size: 72px;
+  font-size: 60px;
+  text-shadow: 2px 2px 8px #242526;
 }
   /* text over parallax description for med, large */
 .overlay2 {
   margin: auto;
-  margin-top: 15px;
+  margin-top: 5px;
   width: 70%;
   font-family: 'Monda', sans-serif;
   color: white;
-  font-size: 26px;
+  font-size: 20px;
+  text-shadow: 2px 2px 8px #242526;
 }
 
 /* text over parallax name for small  */
 .overlay3 {
     margin: auto;
-    margin-top: 60px;
+    margin-top: 5vh;
     width: 70%;
     font-family: 'Julius Sans One', sans-serif;
     color: white;
-    font-size: 56px;
+    font-size: 50px;
+    text-shadow: 2px 2px 8px #242526;
 }
   /* text over parallax description for small */
 .overlay4 {
     margin: auto;
-    margin-top: 15px;
+    margin-top: 5px;
     width: 70%;
     font-family: 'Monda', sans-serif;
     color: white;
     font-size: 20px;
+    text-shadow: 2px 2px 8px #242526;
 }
 
 /* ABOUT SECTION  */
@@ -374,13 +378,13 @@ footer {
     margin: 80px 0 0 15%;
   }
 
-  .overlay1 {
+  /* .overlay1 {
     font-size: 69px;
   }
 
   .overlay2 {
     font-size: 25px;
-  }
+  } */
 
 }
 
@@ -399,13 +403,13 @@ footer {
 }
 
 @media only screen and (max-width: 669px) {
-  .overlay3 {
+  /* .overlay3 {
     font-size: 7vw;
 }
 
   .overlay4 {
     font-size: 3vw;
-}
+} */
 }
 
 @media only screen and (max-width: 599px) {
@@ -416,6 +420,36 @@ footer {
   .wrap-one {
     font-size: 8px;
   } 
+
+    .overlay3 {
+    font-size: 40px;
+}
+
+  .overlay4 {
+    font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 478px) {
+
+    .overlay3 {
+    font-size: 35px;
+}
+
+  .overlay4 {
+    font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 418px) {
+
+  .overlay3 {
+  font-size: 30px;
+}
+
+.overlay4 {
+  font-size: 18px;
+}
 }
 
 @media only screen and (max-width: 412px) {
@@ -441,6 +475,17 @@ footer {
     font-family: 'Monda', sans-serif;
     text-align: left;
     height: 280px;
+  }
+}
+
+@media only screen and (max-width: 358px) {
+
+  .overlay3 {
+    font-size: 25px;
+  }
+
+  .overlay4 {
+    font-size: 16px;
   }
 }
 
