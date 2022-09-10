@@ -212,7 +212,9 @@ a:active {
 
 #project2,
 #project4,
-#project6 {
+#project6,
+#project8,
+#project10 {
   margin-left: 20px;
 }
 
@@ -222,7 +224,10 @@ a:active {
 #card-action4,
 #card-action5,
 #card-action6, 
-#card-action7 {
+#card-action7,
+#card-action8,
+#card-action9,
+#card-action10 {
   position: absolute;
   width: 100%;
   left: 0%;
