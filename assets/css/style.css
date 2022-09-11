@@ -1,6 +1,6 @@
 /* GLOBAL SETTINGS */
 body {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Monda', sans-serif;
   background-color: #f7f7f7;
   color: #606060;
@@ -55,6 +55,11 @@ a:active {
   padding-top: 60px;
 }
 
+.subtitle-center {
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
   /* navbar active */
 .table-of-contents a.active {
   font-weight: 500 !important;
@@ -86,6 +91,10 @@ a:active {
 
 .sideStick a:hover {
   color: #bdbbbb !important
+}
+
+.role-pad {
+  padding-top: 5px;
 }
 
 
@@ -214,7 +223,9 @@ a:active {
 #project4,
 #project6,
 #project8,
-#project10 {
+#project10,
+#project12,
+#project14 {
   margin-left: 20px;
 }
 
@@ -227,7 +238,11 @@ a:active {
 #card-action7,
 #card-action8,
 #card-action9,
-#card-action10 {
+#card-action10,
+#card-action11,
+#card-action12,
+#card-action13,
+#card-action14 {
   position: absolute;
   width: 100%;
   left: 0%;
@@ -293,6 +308,11 @@ i.material-icons.right:hover {
   margin-bottom: 20px;
   font-size: 12px;
 } 
+
+/* ABOUT SECTION   */
+#bio {
+  font-size: 18px;
+}
 
 /* CONTACT SECTION */
 #contact-title {
