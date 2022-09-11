@@ -416,13 +416,21 @@ footer {
 @media only screen and (max-width: 992px) {
   #project2,
   #project4,
-  #project6 {
+  #project6,
+  #project8,
+  #project10,
+  #project12,
+  #project14 {
     margin-left: 0px;
   }
 
   #project1,
   #project3,
-  #project5{
+  #project5
+  #project7,
+  #project9,
+  #project11,
+  #project13 {
     margin-bottom: 30px;
   }
 }
