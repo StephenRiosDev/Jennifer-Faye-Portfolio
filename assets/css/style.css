@@ -426,7 +426,7 @@ footer {
 
   #project1,
   #project3,
-  #project5
+  #project5,
   #project7,
   #project9,
   #project11,
@@ -474,6 +474,14 @@ footer {
 }
 }
 
+@media only screen and (max-width: 443px) {
+
+  .card-content {
+    height: 325px;
+  }
+
+}
+
 @media only screen and (max-width: 418px) {
 
   .overlay3 {
@@ -507,7 +515,7 @@ footer {
   .card-content {
     font-family: 'Monda', sans-serif;
     text-align: left;
-    height: 280px;
+    height: 375px;
   }
 }
 
@@ -522,6 +530,12 @@ footer {
   }
 }
 
+@media only screen and (max-width: 349px) {
+  .card-content {
+    height: 400px;
+  }
+}
+
 @media only screen and (max-width: 341px) {
   .card-title {
     font-size: 16px !important;
@@ -529,5 +543,11 @@ footer {
 
   .card-content {
     font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 337px) {
+  .card-content {
+    height: 450px;
   }
 }
