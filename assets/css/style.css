@@ -249,6 +249,10 @@ a:active {
   bottom: 1%;
 }
 
+.card-reveal:hover {
+  color: #456143;
+}
+
   /* github logo on project card open */
 #github-white {
   height: 25px;
