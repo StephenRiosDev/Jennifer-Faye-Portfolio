@@ -106,12 +106,12 @@ a:active {
 
 #skills-section {
   overflow: auto;
-  background-color: #d8e7d2;
+  background-color: #cbe4e4bd;
   line-height: 1;
 }
 
 #contact-section {
-  background-color: #d8e7d2;
+  background-color: #cbe4e4bd;
   overflow: auto;
 }
 
@@ -377,7 +377,7 @@ i.material-icons.right:hover {
 }
 
 footer {
-  background-color: #43736e;
+  background-color: #408d8ca2;
   overflow: auto;
 }
 
