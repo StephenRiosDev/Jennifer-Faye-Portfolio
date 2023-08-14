@@ -139,49 +139,38 @@ a:active {
 
 /* HOME SECTION */
 #jen {
-  /* float: left;
-  margin-top: 50px; */
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
   margin-top: 20vh;
-
-  /* padding: 5px; */
-  /* border: 2px solid #456143; */
 }
 
 #blurb {
-  text-align: left;
-  margin: 80px 5% 0 5%;
-  font-size: 20px;
-  font-weight: bold ;
-  color: #121212;
-  /* text-shadow: 1px 1px 4px #242526; */
+  font-size: 23px;
+  margin-left: 10vw;
+  color: #FAF9F6;
+  font-family: 'Monda', sans-serif;
 }
 
-  /* text over parallax name for med, large  */
 .overlay1 {
   margin: auto;
-  margin-top: 25vh;
-  width: 70%;
-  font-family: 'Julius Sans One', sans-serif;
-  color: #121212;
-  font-size: 60px;
-  /* text-shadow: 2px 2px 8px #242526; */
-}
-  /* text over parallax description for med, large */
-.overlay2 {
-  margin: auto;
-  margin-top: 5px;
-  width: 70%;
+  margin-top: 20vh;
+  margin-left: 10vw;
   font-family: 'Monda', sans-serif;
-  color: #121212;
-  font-size: 20px;
-  /* text-shadow: 2px 2px 8px #242526; */
+  color: #FAF9F6;
+  font-size: 40px;
 }
 
-/* text over parallax name for small  */
+.overlay2 {
+  margin: auto;
+  margin-left: 10vw;
+  font-family: 'Julius Sans One', sans-serif;
+  color: #FAF9F6;
+  font-size: 50px;
+  font-weight: bold;
+}
+
 .overlay3 {
     margin: auto;
     margin-top: 5vh;
@@ -191,7 +180,7 @@ a:active {
     font-size: 50px;
     text-shadow: 2px 2px 8px #242526;
 }
-  /* text over parallax description for small */
+
 .overlay4 {
     margin: auto;
     margin-top: 5px;
@@ -397,31 +386,10 @@ footer {
   filter:  brightness(0) invert(1);
 }
 
-@media only screen and (max-width: 1401px) {
-  #blurb {
-    margin: 80px 0 0 12%;
-  }
-}
-
 @media only screen and (max-width: 1132px) {
   .card-content {
   height: 300px;
 }
-}
-
-@media only screen and (max-width: 1060px) {
-  #blurb {
-    margin: 80px 0 0 15%;
-  }
-
-  /* .overlay1 {
-    font-size: 69px;
-  }
-
-  .overlay2 {
-    font-size: 25px;
-  } */
-
 }
 
 @media only screen and (max-width: 992px) {
@@ -446,16 +414,6 @@ footer {
   }
 }
 
-@media only screen and (max-width: 669px) {
-  /* .overlay3 {
-    font-size: 7vw;
-}
-
-  .overlay4 {
-    font-size: 3vw;
-} */
-}
-
 @media only screen and (max-width: 599px) {
   .each-logo {
     height: 40px;
@@ -465,7 +423,7 @@ footer {
     font-size: 8px;
   } 
 
-    .overlay3 {
+  .overlay3 {
     font-size: 40px;
 }
 
@@ -476,7 +434,7 @@ footer {
 
 @media only screen and (max-width: 478px) {
 
-    .overlay3 {
+  .overlay3 {
     font-size: 35px;
 }
 
@@ -495,7 +453,7 @@ footer {
 
 @media only screen and (max-width: 418px) {
 
-  .overlay3 {
+.overlay3 {
   font-size: 30px;
 }
 
