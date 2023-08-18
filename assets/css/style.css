@@ -147,7 +147,7 @@ a:active {
 }
 
 #blurb {
-  font-size: 23px;
+  font-size: 1.5vw;
   margin-left: 10vw;
   color: #FAF9F6;
   font-family: 'Monda', sans-serif;
@@ -159,7 +159,7 @@ a:active {
   margin-left: 10vw;
   font-family: 'Monda', sans-serif;
   color: #FAF9F6;
-  font-size: 40px;
+  font-size: 2.25vw;
 }
 
 .overlay2 {
@@ -167,7 +167,7 @@ a:active {
   margin-left: 10vw;
   font-family: 'Julius Sans One', sans-serif;
   color: #FAF9F6;
-  font-size: 50px;
+  font-size: 3.5vw;
   font-weight: bold;
 }
 
