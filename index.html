@@ -7,7 +7,9 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Monda&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poiret+One&display=swap" rel="stylesheet">
     <!-- Link to CSS reset sheet-->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <!-- Link to CSS style sheet-->
@@ -46,8 +48,8 @@
         <div class="parallax"><img src="assets/images/hero.jpg"></div>
         <div class="row">
             <div class="col s6 m6 l6">
-                <div class="overlay1">Hello, my name is Jennifer Faye!</div>
-                <div class="overlay2">I'm a UX/UI Designer</div>
+                <div class="overlay1">Hello, my name is Jennifer Faye</div>
+                <div class="overlay2">I'M A UX/UI DESIGNER</div>
                 <div id="blurb">As a creative problem solver with high attention to detail who is passionate about design, I provide human-centered solutions. I deliver in both form and function, utilizing the methodical planning of a perfectionist, with an artist's touch.
                 </div>
             </div>
@@ -89,34 +91,21 @@
                     target="_blank"> Resume</a></li>
         </ul>
 
-        <!-- container to hold jen pic, blurb, navbar -->
-        <div class="container">
-            <div class="row">
-                <div class="col s12 m12 l2">
-                   <!-- <img id="jen" class="z-depth-1 circle" src="assets/images/Jen.jpg"> -->
+        <!--jen pic, blurb, navbar -->
+    <div id="contents-wrapper">
+            <nav class="white">
+                <div class="nav-wrapper">
+                    <ul id="nav-mobile" class=" right hide-on-med-and-down">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="https://docs.google.com/document/d/1BForpWkfgPc1CMTX7Ys2n2g2IXw4yDUs8EaITtLYkis/edit?usp=sharing"
+                                        target="_blank">Resume</a></li>
+                    </ul>
                 </div>
-                <div class="col s12 m12 l9">
-                    <!-- <p id="blurb">I'm a creative problem solver with high attention to detail who is passionate about design, good at creating captivating 
-                        UI, and capable in web development. I deliver in both form and function, utilizing the methodical planning of a perfectionist, with an artist's touch. 
-                    </p> -->
-                </div>
-                <div class="col l1">
-                    <!--table of contents pinned navigation-->
-                    <div id="contents-wrapper">
-                        <div class="col hide-on-med-and-down m3 l2">
-                            <ul class="section table-of-contents">
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#projects">Projects</a></li>
-                                <li><a href="#skills">Skills</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                                <li><a href="https://docs.google.com/document/d/1BForpWkfgPc1CMTX7Ys2n2g2IXw4yDUs8EaITtLYkis/edit?usp=sharing"
-                                    target="_blank">Resume</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>    
+            </nav>
         </div>
     </div>
 
@@ -615,7 +604,7 @@
                     <h4 id="contact-title">Contact</h4>
                     <img id="logo-jf" class="z-depth-1 circle" src="assets/images/jf-logo.png">
                     <div class="center-align">
-                            <a href="mailto:jennifer@fayecreative.com" target="_top">jennifer@fayecreative.com</a>
+                            <a id="email-link" href="mailto:jennifer@fayecreative.com" target="_top">jennifer@fayecreative.com</a>
                         <br>
                         <div id="contact-icons">
                             <a href="tel:7632586005"><i id="phone" class="small material-icons">phone_iphone</i></a> 

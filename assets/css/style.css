@@ -1,15 +1,15 @@
 /* GLOBAL SETTINGS */
 body {
   font-size: 16px;
-  font-family: 'Monda', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #f7f7f7;
-  color: #606060;
+  color: #121212;
   line-height: 1.6;
 }
 
 h1, h2, h3, h4, h6 {
-    font-family: 'Julius Sans One', sans-serif;
-    color: #456143;
+  font-family: 'Poiret One', sans-serif;
+    color: #333333;
     text-align: center;
 }
 
@@ -19,14 +19,14 @@ h4 {
 }
 
 h5 {
-  font-family: 'Julius Sans One', sans-serif;
-  color: #456143;
+  font-family: 'Poiret One', sans-serif;
+  color: #333333;
   text-align: left;
 }
 
   /* unvisited and visited link */
 a:link, a:visited {
-  color: #6d6d6d;
+  color: #787878;
 }
   
   /* mouse over link */
@@ -36,13 +36,13 @@ a:hover {
   
   /* selected link */
 a:active {
-  color: #d8e7d2;
+  color: #333333;
 }
 
   /* navbar scrollspy contents buttons */
 #contents-wrapper {
   overflow: hidden;
-  float: left;
+  z-index: 4;
 }
 
 .sticky {
@@ -60,23 +60,17 @@ a:active {
   padding: 50px 0 20px 0;
 }
 
-  /* navbar active */
-.table-of-contents a.active {
-  font-weight: 500 !important;
-  padding-left: 14px !important;
-  border-left: 2px solid #456143 !important;
-}
-    /* navbar hover */
-.table-of-contents a:hover {
-  color: #456143 !important;
-  padding-left: 11px !important;
-  border-left: 5px solid #456143 !important;
+/* sidenav settings */
+.nav-wrapper {
+  padding-right: 8%;
 }
 
-  /* sidenav settings */
-#sidebar-wrapper {
-  float: left;
-  margin: 20px 0 0 20px ;
+nav ul li {
+  font-weight: 600;
+}
+
+nav ul li:hover {
+  background-color: #164e6b;
 }
 
 .sideStick {
@@ -87,10 +81,6 @@ a:active {
 
 .sideStick + .content {
   padding-top: 60px;
-}
-
-.sideStick a:hover {
-  color: #bdbbbb !important
 }
 
 .role-pad {
@@ -106,12 +96,12 @@ a:active {
 
 #skills-section {
   overflow: auto;
-  background-color: #cbe4e4bd;
+  background-color: #d9f4ec;
   line-height: 1;
 }
 
 #contact-section {
-  background-color: #cbe4e4bd;
+  background-color: #d9f4ec;
   overflow: auto;
 }
 
@@ -124,7 +114,7 @@ a:active {
 #about, #projects, #skills {
   margin-top: 200px;
   margin-bottom: 350px;
-  width: 85%;
+  width: 100%;
 }
 
 #contact {
@@ -150,32 +140,32 @@ a:active {
   font-size: 1.5vw;
   margin-left: 10vw;
   color: #FAF9F6;
-  font-family: 'Monda', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .overlay1 {
   margin: auto;
   margin-top: 20vh;
   margin-left: 10vw;
-  font-family: 'Monda', sans-serif;
+  font-family: 'Poiret One', sans-serif;
   color: #FAF9F6;
-  font-size: 2.25vw;
+  font-size: 2.5vw;
+  font-weight: bold;
 }
 
 .overlay2 {
   margin: auto;
   margin-left: 10vw;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Poiret One', sans-serif;
   color: #FAF9F6;
-  font-size: 3.5vw;
-  font-weight: bold;
+  font-size: 3.6vw;
 }
 
 .overlay3 {
     margin: auto;
     margin-top: 5vh;
     width: 70%;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 50px;
     text-shadow: 2px 2px 8px #242526;
@@ -185,7 +175,7 @@ a:active {
     margin: auto;
     margin-top: 5px;
     width: 70%;
-    font-family: 'Monda', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 20px;
     text-shadow: 2px 2px 8px #242526;
@@ -196,14 +186,14 @@ a:active {
 /* PROJECTS SECTION  */
 
 .card-title {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Poiret One', sans-serif;
   color: #456143;
   text-align: left;
   font-size: 20px !important;
 }
 
 .card-content {
-  font-family: 'Monda', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: left;
   height: 220px;
 }
@@ -285,7 +275,7 @@ i.material-icons.right:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 70%;
   background-color: #FFFEFA;
 }
 
@@ -324,7 +314,7 @@ i.material-icons.right:hover {
   margin-bottom: 80px;
   width: 100px;
   padding: 5px;
-  border: 2px solid #456143;
+  border: 2px solid #164e6b;
   background-color: white;
   display: block;
   margin-left: auto;
@@ -334,7 +324,12 @@ i.material-icons.right:hover {
 
   /* logo link icons */
 #email-link {
-  color: #456143;
+  color: #575757;
+}
+
+#email-link:hover {
+  color: #3c7e84;
+
 }
 
 #phone {
@@ -342,6 +337,10 @@ i.material-icons.right:hover {
   top: 1px;
   padding-right: 20px;
   margin-bottom: 20px;
+}
+
+#phone:hover {
+  color: #3c7e84;
 }
 
 #github {
@@ -373,17 +372,17 @@ i.material-icons.right:hover {
 }
 
 footer {
-  background-color: #408d8ca2;
+  background-color: #3c7e84;
   overflow: auto;
 }
 
   /* changes link icons white on hover */
 #github-change:hover img {
-  filter:  brightness(0) invert(1);
+  filter:  invert(44%) sepia(14%) saturate(1536%) hue-rotate(137deg) brightness(80%) contrast(81%);
 }
 
 #linkedin-change:hover img {
-  filter:  brightness(0) invert(1);
+  filter:  invert(44%) sepia(14%) saturate(1536%) hue-rotate(137deg) brightness(80%) contrast(81%);
 }
 
 @media only screen and (max-width: 1132px) {
