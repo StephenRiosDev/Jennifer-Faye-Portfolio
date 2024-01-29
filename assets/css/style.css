@@ -64,8 +64,8 @@ a:active {
 
 /* sidenav settings */
 .nav-wrapper {
-  padding-right: 8%;
-  background-color: #f0f4fa;
+  padding-left: 10px;
+background-color: #f7f7f7;
 }
 
 nav ul li {
@@ -100,6 +100,7 @@ nav ul li:hover {
 #pic-section, #about-section, #project-section {
   overflow: auto;
   background-color: white;
+
 }
 
 #skills-section {
@@ -162,8 +163,8 @@ nav ul li:hover {
   font-family: 'Montserrat', sans-serif;
   color: #FAF9F6;
   font-size: 32px;  
-  font-weight: bold;
-  letter-spacing: 6px;
+  font-weight: 600;
+  letter-spacing: 7px;
   padding: 10px 0 10px 0;
 }
 
