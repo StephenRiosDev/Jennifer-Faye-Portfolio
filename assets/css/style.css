@@ -146,39 +146,41 @@ nav ul li:hover {
   margin-left: auto;
   margin-right: auto;
   width: 300px;
-  margin-top: 25vh;
-  border: 3px solid #FAF9F6;
+  margin-top: 28vh;
+  border: 4px solid rgba(14,61,85,1);
 }
 
 .overlay1 {
   margin: auto;
-  margin-top: 15vh;
+  margin-top: 20vh;
   margin-left: 10vw;
   font-family: 'Poiret One', sans-serif;
-  color: #f1fbe0;
-  font-size: 100px;
+  color: #d5ff7c;
+  font-size: 6vw;
   font-weight: light;
-  text-shadow: 2px 2px #333333;
+  text-shadow: 1px 1px rgba(14,61,85,1);
 }
 
 .overlay2 {
   margin: auto;
   margin-left: 10vw;
+  width: 50%;
   font-family: 'Montserrat', sans-serif;
-  color: #f1fbe0;
-  font-size: 40px;  
+  color: #fff;
+  font-size: 1.5vw;  
   font-weight: 500;
   letter-spacing: 7px;
   padding: 20px 0 20px 0;
-  text-shadow: 2px 2px #333333;
+  text-shadow: 1px 1px rgba(14,61,85,1);
 }
 
 #blurb1 {
-  font-size: 26px;
+  font-size: 1.5vw;
   margin-left: 10vw;
-  color: #f1fbe0;
+  width: 60%;
+  color:#fff;
   font-family: 'Montserrat', sans-serif;
-  text-shadow: 2px 2px #333333;
+  text-shadow: 1px 1px rgba(14,61,85,1);
 }
 
 .overlay3 {
