@@ -28,7 +28,7 @@ h5 {
 
   /* unvisited and visited link */
 a:link, a:visited {
-  color: #333333;
+  /* color: #333333; */
 }
   
   /* mouse over link */
@@ -65,7 +65,7 @@ a:active {
 /* sidenav settings */
 .nav-wrapper {
   padding-left: 10px;
-background-color: #f7f7f7;
+background-color: #164e6b;
 }
 
 nav ul li {
@@ -73,7 +73,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  background-color: #164e6b;
+  background-color: #317a9f;
 }
 
 .sideStick {
@@ -91,8 +91,9 @@ nav ul li:hover {
 }
 
 .brand-logo {
-  padding-top: 5px !important;
-  padding-right: 20px !important;
+  /* padding-top: 5px !important; */
+  padding-left: 20px !important;
+  font-family: 'Poiret One', sans-serif;
 }
 
 
@@ -149,12 +150,13 @@ nav ul li:hover {
 
 .overlay1 {
   margin: auto;
-  margin-top: 17vh;
+  margin-top: 15vh;
   margin-left: 10vw;
   font-family: 'Poiret One', sans-serif;
   color: #FAF9F6;
-  font-size: 60px;
+  font-size: 100px;
   font-weight: light;
+  text-shadow: 2px 2px #333333;
 }
 
 .overlay2 {
@@ -162,17 +164,19 @@ nav ul li:hover {
   margin-left: 10vw;
   font-family: 'Montserrat', sans-serif;
   color: #FAF9F6;
-  font-size: 32px;  
-  font-weight: 600;
+  font-size: 40px;  
+  font-weight: 500;
   letter-spacing: 7px;
   padding: 10px 0 10px 0;
+  text-shadow: 2px 2px #333333;
 }
 
 #blurb1 {
-  font-size: 24px;
+  font-size: 26px;
   margin-left: 10vw;
   color: #FAF9F6;
   font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px #333333;
 }
 
 .overlay3 {
@@ -361,18 +365,13 @@ i.material-icons.right:hover {
 
 #email-link:hover {
   color: #3c7e84;
-
 }
 
 #phone {
   position: relative;
   top: 1px;
   padding-right: 20px;
-  margin-bottom: 20px;
-}
-
-#phone:hover {
-  color: #3c7e84;
+  height: 30px;
 }
 
 #github {
@@ -390,6 +389,18 @@ i.material-icons.right:hover {
   height: 27px;
 }
 
+#phone:hover {
+  filter:  invert(44%) sepia(14%) saturate(1536%) hue-rotate(137deg) brightness(80%) contrast(81%);
+}
+
+#github:hover {
+  filter:  invert(44%) sepia(14%) saturate(1536%) hue-rotate(137deg) brightness(80%) contrast(81%);
+}
+
+#linkedin:hover {
+  filter:  invert(44%) sepia(14%) saturate(1536%) hue-rotate(137deg) brightness(80%) contrast(81%);
+}
+
 #copyright {
   color: white;
   font-size: 16px;
@@ -404,17 +415,8 @@ i.material-icons.right:hover {
 }
 
 footer {
-  background-color: #3c7e84;
+  background-color: #164e6b;
   overflow: auto;
-}
-
-  /* changes link icons white on hover */
-#github-change:hover img {
-  filter:  invert(44%) sepia(14%) saturate(1536%) hue-rotate(137deg) brightness(80%) contrast(81%);
-}
-
-#linkedin-change:hover img {
-  filter:  invert(44%) sepia(14%) saturate(1536%) hue-rotate(137deg) brightness(80%) contrast(81%);
 }
 
 @media only screen and (max-width: 1132px) {
