@@ -27,9 +27,9 @@ h5 {
 }
 
   /* unvisited and visited link */
-a:link, a:visited {
-  /* color: #333333; */
-}
+/* a:link, a:visited {
+  color: #333333;
+} */
   
   /* mouse over link */
 a:hover {
@@ -64,8 +64,8 @@ a:active {
 
 /* sidenav settings */
 .nav-wrapper {
-  padding-left: 10px;
-background-color: #164e6b;
+  background: rgb(14,61,85);
+  background: linear-gradient(107deg, rgba(14,61,85,1) 0%, rgba(48,110,143,1) 100%);
 }
 
 nav ul li {
@@ -106,12 +106,14 @@ nav ul li:hover {
 
 #skills-section {
   overflow: auto;
-  background-color: #dfece8;
+  background: rgb(175,214,231);
+  background: linear-gradient(90deg, rgba(175,214,231,0.7973783263305322) 0%, rgba(168,241,194,0.5816920518207283) 100%);
   line-height: 1;
 }
 
 #contact-section {
-  background-color: #dfece8;
+  background: rgb(175,214,231);
+  background: linear-gradient(90deg, rgba(175,214,231,0.7973783263305322) 0%, rgba(168,241,194,0.5816920518207283) 100%);
   overflow: auto;
 }
 
@@ -144,7 +146,7 @@ nav ul li:hover {
   margin-left: auto;
   margin-right: auto;
   width: 300px;
-  margin-top: 20vh;
+  margin-top: 25vh;
   border: 3px solid #FAF9F6;
 }
 
@@ -153,7 +155,7 @@ nav ul li:hover {
   margin-top: 15vh;
   margin-left: 10vw;
   font-family: 'Poiret One', sans-serif;
-  color: #FAF9F6;
+  color: #f1fbe0;
   font-size: 100px;
   font-weight: light;
   text-shadow: 2px 2px #333333;
@@ -163,18 +165,18 @@ nav ul li:hover {
   margin: auto;
   margin-left: 10vw;
   font-family: 'Montserrat', sans-serif;
-  color: #FAF9F6;
+  color: #f1fbe0;
   font-size: 40px;  
   font-weight: 500;
   letter-spacing: 7px;
-  padding: 10px 0 10px 0;
+  padding: 20px 0 20px 0;
   text-shadow: 2px 2px #333333;
 }
 
 #blurb1 {
   font-size: 26px;
   margin-left: 10vw;
-  color: #FAF9F6;
+  color: #f1fbe0;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 2px 2px #333333;
 }
@@ -415,7 +417,8 @@ i.material-icons.right:hover {
 }
 
 footer {
-  background-color: #164e6b;
+  background: rgb(14,61,85);
+  background: linear-gradient(107deg, rgba(14,61,85,1) 0%, rgba(48,110,143,1) 100%);
   overflow: auto;
 }
 
