@@ -26,9 +26,10 @@ h5 {
 
 .sub-sub {
   font-size: 35px !important;
-  text-align: center;
-  padding-top: 20px;
+  text-align: left;
+  padding-top: 30px;
   padding-bottom: 20px;
+  margin-left: 25px;
 }
 
   /* unvisited and visited link */
@@ -271,7 +272,7 @@ color: whitesmoke;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
   background-color: #FFFEFA;
 }
 
@@ -288,7 +289,7 @@ color: whitesmoke;
 }
 
 .wrap-one {
-  text-align: center;
+  text-align: center !important;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
