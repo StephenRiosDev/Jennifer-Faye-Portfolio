@@ -12,6 +12,10 @@ $(document).ready(function(){
       closeOnClick: true,
       draggable: true
     });
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      indicators: true
+    });
 
     // execute navFunction on scroll
     window.onscroll = function(){navFunction()};
