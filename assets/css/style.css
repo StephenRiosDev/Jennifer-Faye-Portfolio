@@ -106,25 +106,10 @@ nav ul li:hover {
   top: 0; 
   width: 100%; 
   z-index: 6;
+  color: #bfe3f6;
+  padding-top: 18px;
+  padding-left: 18px;
 }
-
-/* Links inside the navbar */
-.sidenav-trigger a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change background on mouse-over */
-.sidenav-trigger a:hover {
-  background: #ddd;
-  color: black;
-}
-
-
 
 /* page sections */
 #pic-section, #about-section, #project-section, #case-section {
@@ -207,7 +192,7 @@ nav ul li:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
+  width: 175px;
   margin-top: 7vh;
   border: 4px solid #031d2a;
 }
@@ -217,7 +202,7 @@ nav ul li:hover {
   margin-top: 10vh;
   width: 90%;
   font-family: 'Poiret One', sans-serif;
-  color: #FAF9F6;
+  color: #fff;
   font-size: 4.25 vw;
   font-weight: light;
   text-align: center;
@@ -228,7 +213,7 @@ nav ul li:hover {
   padding: 10px 0 10px 0;
   width: 90%;
   font-family: 'Montserrat', sans-serif;
-  color: #FAF9F6;
+  color: #Fff;
   font-size: 1.25 vw;
   font-weight: bold;
   letter-spacing: 5px;
@@ -241,7 +226,7 @@ nav ul li:hover {
   margin: auto;
   margin-top: 6px;
   width: 68%;
-  color: #FAF9F6;
+  color: #Fff;
   font-family: 'Montserrat', sans-serif;
 }
 

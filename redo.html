@@ -43,29 +43,30 @@
 
 <body>
 
-    <!-- Sidenav slide out on mobile -->
-    <div id="pic-section">
-        <div id="sidebar-wrapper">
-            <div class="col hide-on-large-only s12">
-                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            </div>
+        <!-- sidenav trigger hamburger -->
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+        <!-- Sidenav slide out on mobile -->
+        <div id="pic-section">
+            <div id="sidebar-wrapper" class="hide-on-large-only">
+     
+            <ul id="slide-out" class="sidenav">
+                <div class="background">
+                    <img src="assets/images/hero-side-nav.jpg">
+                </div>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#case">Case Study</a></li>
+                    <li><a href="#contact2">Contact</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li><a class="sidenav-close waves-effect"
+                        href="https://docs.google.com/document/d/1KOm80gQiB8OpsawwVK_1yxqJQcYXOTqPQedWqUMT5zA/edit?usp=sharing"
+                        target="_blank"> Resume</a></li>
+            </ul>
         </div>
-        <ul id="slide-out" class="sidenav">
-            <div class="background">
-                <img src="assets/images/hero-side-nav.jpg">
-            </div>
-            <li><a class="sidenav-close waves-effect" href="#home">Home</a></li>
-            <li><a class="sidenav-close waves-effect" href="#projects">Projects</a></li>
-            <li><a class="sidenav-close waves-effect" href="#skills">Skills</a></li>
-            <li><a class="sidenav-close waves-effect" href="#about">About</a></li>
-            <li><a class="sidenav-close waves-effect" href="#contact">Contact</a></li>
-            <li>
-                <div class="divider"></div>
-            </li>
-            <li><a class="sidenav-close waves-effect"
-                    href="https://docs.google.com/document/d/1KOm80gQiB8OpsawwVK_1yxqJQcYXOTqPQedWqUMT5zA/edit?usp=sharing"
-                    target="_blank"> Resume</a></li>
-        </ul>
+    
+       
         <!--jen pic, blurb, navbar -->
         <div id="contents-wrapper">
             <nav class="white">
