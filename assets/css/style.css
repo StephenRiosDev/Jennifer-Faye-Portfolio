@@ -32,17 +32,17 @@ h5 {
   margin-left: 25px;
 }
   
-  /* mouse over link */
+/* mouse over link */
 a:hover {
   color:white;
 }
   
-  /* selected link */
+/* selected link */
 a:active {
   color: #333333;
 }
 
-  /* navbar scrollspy contents buttons */
+/* navbar scrollspy contents buttons */
 #contents-wrapper {
   overflow: hidden;
   z-index: 4;
@@ -99,12 +99,10 @@ nav ul li:hover {
   font-family: 'Poiret One', sans-serif;
 }
 
-
-  /* page sections */
+/* page sections */
 #pic-section, #about-section, #project-section, #case-section {
   overflow: auto;
   background-color: #031d2a;
-
 }
 
 #skills-section {
@@ -120,7 +118,7 @@ nav ul li:hover {
   overflow: auto;
 }
 
-  /* scroll points for scrollspy navbar */
+/* scroll points for scrollspy navbar */
 #home {
   margin-top: -30px;
   overflow: auto;
@@ -132,30 +130,29 @@ nav ul li:hover {
   width: 100%;
 }
 
-#contact {
+#contact, #contact2 {
   margin-top: 50px;
   margin-bottom: 20px;
 }
 
 /* HOME SECTION */
+/* Desktop */
 #jen1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
   width: 300px;
   margin-top: 22vh;
   border: 4px solid #031d2a;
 }
 
 .overlay1 {
+  clear: both;
   margin: auto;
-  margin-top: 16vh;
+  margin-top: 20vh;
   margin-left: 10vw;
   font-family: 'Poiret One', sans-serif;
   color: #fff;
   font-size: 4.25vw;
   font-weight: light;
-
 }
 
 .overlay2 {
@@ -168,7 +165,6 @@ nav ul li:hover {
   font-weight: 500;
   letter-spacing: 7px;
   padding: 20px 0 20px 0;
-
 }
 
 #blurb1 {
@@ -177,46 +173,49 @@ nav ul li:hover {
   width: 60%;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
-
 }
 
-.overlay3 {
-    margin: auto;
-    margin-top: 5vh;
-    width: 90%;
-    font-family: 'Poiret One', sans-serif;
-    color: #FAF9F6;
-    font-size: 36px !important;
-    font-weight: light;
-}
-
-.overlay4 {
-    margin: auto;
-    margin-top: 5px;
-    width: 90%;
-    font-family: 'Montserrat', sans-serif;
-    color: #FAF9F6;
-    font-size: 19px !important;
-    font-weight: bold;
-    letter-spacing: 5px;
-}
-
-#blurb2 {
-  font-size: 18px;
-  margin: auto;
-  margin-top: 6px;
-  width: 90%;
-  color: #FAF9F6;
-  font-family: 'Montserrat', sans-serif;
-}
-
+/* Tablet/Mobile */
 #jen2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 175px;
-  margin-top: 5vh;
+  width: 200px;
+  margin-top: 7vh;
   border: 4px solid #031d2a;
+}
+
+.overlay3 {
+  margin: auto;
+  margin-top: 10vh;
+  width: 90%;
+  font-family: 'Poiret One', sans-serif;
+  color: #FAF9F6;
+  font-size: 4.25 vw;
+  font-weight: light;
+  text-align: center;
+}
+
+.overlay4 {
+  margin: auto;
+  padding: 10px 0 10px 0;
+  width: 90%;
+  font-family: 'Montserrat', sans-serif;
+  color: #FAF9F6;
+  font-size: 1.25 vw;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+#blurb2 {
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+  margin-top: 6px;
+  width: 68%;
+  color: #FAF9F6;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* PROJECTS SECTION  */
@@ -300,11 +299,10 @@ nav ul li:hover {
   /* border: 1px solid #121212; */
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  
+  margin-right: auto; 
 }
 
-  /* logo link icons */
+/* logo link icons */
 #email-link {
   color: #121212;
 }
@@ -366,7 +364,6 @@ footer {
 }
 
 /* REDO GURU PAGE */
-
 .text-block {
   display: block;
   margin-left: auto;
@@ -398,7 +395,6 @@ footer {
 }
 
 #case {
- 
   margin-bottom: 200px;
   width: 100%;
 }
@@ -462,7 +458,6 @@ footer {
   width: 80%;
 }
 
-
 #proto-pic1, #proto-pic2, #proto-pic3 {
   display: block;
   margin-left: auto;
@@ -475,17 +470,17 @@ footer {
 #proto-pic1:hover {
   filter: none;
   -webkit-filter: grayscale(0);
-  }
+}
 
 #proto-pic2:hover {
   filter: none;
   -webkit-filter: grayscale(0);
-  }
+}
 
 #proto-pic3:hover {
   filter: none;
   -webkit-filter: grayscale(0);
-  }
+}
 
 .proto-text {
   text-align: center;
@@ -518,13 +513,70 @@ footer {
 }
 
 .carousel-slider {
-  /* background: rgb(70,140,176);
-  background: linear-gradient(90deg, rgba(70,140,176,1) 0%, rgba(172,235,216,1) 100%); */
   background-color: #3c7e84;
   height: 625px !important;
   margin-top: 50px;
 }
 
+@media only screen and (max-width: 1540px) {
+  #jen1 {
+    margin-top: 23vh;
+  }
 
-@media only screen and (max-width: 1132px) {
+  .overlay1 {
+    font-size: 4.5vw;
+  }
+  
+  .overlay2, #blurb1 {
+    font-size: 1.5vw;  
+  }
 }
+
+@media only screen and (max-width: 1400px) {
+  #jen1 {
+    margin-top: 26vh;
+    width: 275px;
+  }
+
+  .overlay1 {
+    margin-top: 24vh;
+    font-size: 4.5vw;
+  }
+  
+  .overlay2, #blurb1 {
+    font-size: 1.5vw;  
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  #jen1 {
+    margin-top: 27vh;
+    width: 265px;
+  }
+
+  .overlay1 {
+    margin-top: 24vh;
+    font-size: 4.6vw;
+  }
+  
+  .overlay2, #blurb1 {
+    font-size: 1.6vw;  
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  #jen1 {
+    margin-top: 28vh;
+    width: 250px;
+  }
+
+  .overlay1 {
+    margin-top: 20vh;
+    font-size: 4.8vw;
+  }
+  
+  .overlay2, #blurb1 {
+    font-size: 1.8vw;  
+  }
+}
+
