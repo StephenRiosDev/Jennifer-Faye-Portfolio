@@ -2,10 +2,9 @@ $(document).ready(function(){
     $(this).scrollTop(0);
     $('.scrollspy').scrollSpy();
     $('.parallax').parallax();
-   
     $('.tooltipped').tooltip();
     $('.pushpin').pushpin();
-
+    $('.materialboxed').materialbox();
     $('.sidenav').sidenav({
       menuWidth: 300,
       // edge: 'right',
