@@ -417,11 +417,11 @@ footer {
 }
 
 .survey-wrapper {
-  padding: 40px 50px 40px 50px;
+  padding: 0px 50px 20px 50px;
 }
 
 .persona-wrapper {
-  padding: 0px 50px 40px 50px;
+  padding: 0px 0px 0px 0px;
 }
 
 .wireframe-wrapper {
@@ -437,6 +437,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 95%;
+  padding-top: 20px;
 }
 
 .persona-pics {
@@ -463,7 +464,7 @@ footer {
   width: 60%;
 }
 
-#mock-pics1, #mock-pics2, #mock-pics3 {
+#mock-pics1, #mock-pics2, #mock-pics3, #mock-pics4 {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -509,7 +510,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  padding: 40px 0px 40px 0px;
+  padding: 20px 0px 0px 0px;
 }
 
 #flow {
@@ -531,7 +532,7 @@ footer {
 
 .carousel-slider {
   background-color: #3c7e84;
-  height: 625px !important;
+  height: 600px !important;
   margin-top: 50px;
 }
 
@@ -542,7 +543,7 @@ footer {
   width: 80%;
 }
 
-.design-system {
+.DS-pic {
   padding-top: 20px;
 }
 
@@ -558,6 +559,12 @@ footer {
   .overlay2, #blurb1 {
     font-size: 1.5vw;  
   }
+}
+
+@media only screen and (max-width: 1466px) {
+  .card-content {
+    height: 250px;
+}
 }
 
 @media only screen and (max-width: 1400px) {
@@ -592,19 +599,256 @@ footer {
   }
 }
 
-@media only screen and (max-width: 1220px) {
-  #jen1 {
-    margin-top: 28vh;
-    width: 250px;
-  }
+@media only screen and (max-width: 1214px) {
+  .card-content {
+  height: 260px;
+}
+}
 
-  .overlay1 {
-    margin-top: 20vh;
-    font-size: 4.8vw;
+@media only screen and (max-width: 1030px) {
+  .card-content {
+  height: 285px;
+}
+}
+
+@media only screen and (max-width: 1001px) {
+  .card-content {
+  height: 310px;
+}
+}
+
+@media only screen and (max-width: 992px) {
+.materialboxed {
+  width: 100% !important;
+}
+
+.text-block {
+    width: 100%;
+}
+
+.proto-text{
+padding-top: 20px;
+}
+
+.proto-image {
+  width: 50% !important;
+}
+
+.carousel-slider {
+  height: 400px !important;
+}
+
+#jen2 {
+  margin-top: 4vh;
+  width: 200px;
+}
+
+.overlay3 {
+  margin-top: 8vh;
+  font-size: 5.5vw;
+}
+
+.overlay4, #blurb2 {
+  font-size: 2vw;  
+}
+
+h4 {
+  padding-bottom: 70px;
+}
+
+.card {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 80% !important; 
+}
+
+.card-content {
+  height: 200px;
+}
+
+}
+
+@media only screen and (max-width: 880px) {
+  #jen2 {
+    margin-top: 3.75vh;
+    width: 200px;
   }
   
-  .overlay2, #blurb1 {
-    font-size: 1.8vw;  
+  .overlay3 {
+    font-size: 5.75vw;
+  }
+  
+  .overlay4, #blurb2 {
+    font-size: 2.25vw;  
   }
 }
 
+@media only screen and (max-width: 760px) {
+  .carousel-slider {
+    height: 350px !important;
+  }
+
+  .parallax-container {
+    height: 550px !important;
+  }
+
+  #jen2 {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 741px) {
+.card-content {
+  height: 210px;
+}
+
+.each-logo {
+  height: 40px;
+}
+
+.skill-descrip {
+  font-size: 12px;
+}
+}
+
+@media only screen and (max-width: 700px) { 
+  .overlay3 {
+    font-size: 6vw;
+  }
+  
+  .overlay4, #blurb2 {
+    font-size: 2.5vw;  
+  }
+}
+
+@media only screen and (max-width: 687px) {
+  .card-content {
+    height: 235px;
+  }
+  }
+
+@media only screen and (max-width: 600px) { 
+  .overlay3 {
+    font-size: 6.5vw;
+  }
+  
+  .overlay4, #blurb2 {
+    font-size: 2.75vw;  
+  }
+
+  #jen2 {
+    margin-top: 3.5vh
+  }
+
+  .card {
+    width: 90% !important; 
+  }
+
+  .card-content {
+    height: 230px;
+  }
+
+  .rectangle {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .carousel-slider {
+    height: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 550px) { 
+.rectangle {
+  width: 50%;
+}
+}
+
+@media only screen and (max-width: 500px) { 
+  .parallax-container {
+    height: 525px !important;
+  }
+
+  #jen2 {
+    margin-top: 3vh;
+    width: 150px;
+  }
+
+  .overlay3 {
+    font-size: 6.75vw;
+  }
+  
+  .overlay4, #blurb2 {
+    font-size: 3vw;  
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.card-content {
+  height: 260px;
+}
+}
+
+@media only screen and (max-width: 450px) {
+  .carousel-slider {
+    height: 275px !important;
+  }
+
+  .overlay3 {
+    font-size: 7vw;
+  }
+  
+  .overlay4, #blurb2 {
+    font-size: 3.5vw;  
+  }
+
+  .rectangle {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 392px) {
+  .card-content {
+    height: 350px;
+  }
+  }
+
+@media only screen and (max-width: 370px) {
+  .parallax-container {
+    height: 500px !important;
+  }
+
+  .carousel-slider {
+    height: 250px !important;
+  }
+
+  .overlay3 {
+    font-size: 7.5vw;
+  }
+  
+  .overlay4, #blurb2 {
+    font-size: 3.75vw;  
+  }
+
+  #jen2 {
+    width: 125px;
+  }
+}
+
+@media only screen and (max-width: 331px) {
+  .card-content {
+    height: 375px;
+  }
+  }
+
+  @media only screen and (max-width: 291px) {
+    .card-content {
+      height: 450px;
+    }
+
+    .rectangle {
+      width: 80%;
+    }
+    }
