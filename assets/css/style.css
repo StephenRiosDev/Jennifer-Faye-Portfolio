@@ -163,7 +163,7 @@ nav ul li:hover {
   margin-left: 10vw;
   font-family: 'Poiret One', sans-serif;
   color: #fff;
-  font-size: 4.25vw;
+  font-size: 4.5vw;
   font-weight: light;
 }
 
@@ -173,14 +173,14 @@ nav ul li:hover {
   width: 50%;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
-  font-size: 1.25vw;  
+  font-size: 1.5vw;  
   font-weight: 500;
   letter-spacing: 7px;
   padding: 20px 0 20px 0;
 }
 
 #blurb1 {
-  font-size: 1.25vw;
+  font-size: 1.5vw;
   margin-left: 10vw;
   width: 60%;
   color: #fff;
@@ -215,9 +215,9 @@ nav ul li:hover {
   font-family: 'Montserrat', sans-serif;
   color: #Fff;
   font-size: 1.25 vw;
-  font-weight: bold;
   letter-spacing: 5px;
   text-align: center;
+  font-weight: 500;
 }
 
 #blurb2 {
@@ -551,6 +551,18 @@ footer {
 .carousel-slider {
   height: 575px !important;
 }
+
+.overlay1 {
+  font-size: 4.65vw;
+}
+
+.overlay2 {
+  font-size: 1.65vw;  
+}
+
+#blurb1 {
+  font-size: 1.65vw;
+}
 }
 
 @media only screen and (max-width: 1350px) {
@@ -558,6 +570,21 @@ footer {
     height: 550px !important;
   }
   }
+
+  @media only screen and (max-width: 1266px) {
+  .overlay1 {
+    font-size: 4.75vw;
+  }
+  
+  .overlay2 {
+    font-size: 1.75vw;
+    width: 60%;  
+  }
+  
+  #blurb1 {
+    font-size: 1.75vw;
+  }
+}
 
 @media only screen and (max-width: 1214px) {
   .card-content {
@@ -568,6 +595,45 @@ footer {
 @media only screen and (max-width: 1200px) {
   .carousel-slider {
     height: 500px !important;
+  }
+
+  .overlay1 {
+    font-size: 4.85vw;
+  }
+  
+  .overlay2 {
+    font-size: 1.85vw;
+  
+  }
+  
+  #blurb1 {
+    font-size: 1.85vw;
+  }
+  }
+
+ @media only screen and (max-width: 1100px) { 
+
+#jen1 {
+  width: 275px;
+  margin-top: 28vh;
+}
+.overlay1 {
+  font-size: 4.95vw;
+}
+    
+.overlay2 {
+  font-size: 1.95vw;
+    
+}
+    
+#blurb1 {
+  font-size: 1.95vw;
+}
+}
+
+@media only screen and (max-width: 1042px) { 
+  .overlay2 {
+    width: 70%;
   }
   }
 
@@ -618,19 +684,89 @@ h4 {
 .card-content {
   height: 200px;
 }
+
+.overlay3 {
+  font-size: 5vw;
+  padding: 0px 0 10px 0;
+}
+
+.overlay4 {
+  width: 40%;
+  font-size: 2vw;
+}
+
+#jen2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+#blurb2 {
+  font-size: 20px;
+  width: 50%;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.parallax-container {
+  height: 670px !important;
+}
+
 }
 
 @media only screen and (max-width: 920px) {
 .carousel-slider {
   height: 425px !important;
 }
+
+.overlay3 {
+  font-size: 5.25vw;
+}
+
+.overlay4 {
+  font-size: 2.25vw;
+ width: 50%;
+}
+
+#blurb2 {
+  font-size: 19px;
+}
+
 }
 
 @media only screen and (max-width: 800px) {
   .carousel-slider {
     height: 400px !important;
   }
+
+.overlay3 {
+  font-size: 5.5vw;
+}
+
+.overlay4 {
+  font-size: 2.5vw;
+ width: 50%;
+}
+
+#blurb2 {
+  font-size: 18px;
+}
   }
+
+  @media only screen and (max-width: 744px) {  
+    .overlay4 {
+      font-size: 2.75vw;
+     width: 60%;
+    } 
+
+    .overlay3 {
+      font-size: 5.75vw;
+    }  
+    
+    #blurb2 {
+     width: 60%;
+    }
+    }
 
 @media only screen and (max-width: 741px) {
 .card-content {
@@ -658,6 +794,16 @@ h4 {
   .carousel-slider {
     height: 350px !important;
   }
+
+  .overlay4 {
+    font-size: 3vw;
+   width: 60%;
+  } 
+
+  .overlay3 {
+    font-size: 6vw;
+  }  
+  
   }
 
 @media only screen and (max-width: 600px) { 
@@ -676,6 +822,15 @@ h4 {
   .carousel-slider {
     height: 325px !important;
   }
+
+  .overlay3 {
+    font-size: 6.5vw;
+  } 
+
+  .overlay4 {
+    font-size: 3.25vw;
+   width: 70%;
+  } 
 }
 
 @media only screen and (max-width: 550px) { 
@@ -685,6 +840,20 @@ h4 {
 
 .carousel-slider {
   height: 300px !important;
+}
+
+.overlay3 {
+  font-size: 40px;
+} 
+
+.overlay4 {
+  font-size: 3.5vw;
+ width: 70%;
+} 
+
+#blurb2 {
+  font-size: 17px;
+  width: 70%;
 }
 }
 
@@ -696,12 +865,40 @@ h4 {
 .carousel-slider {
   height: 275px !important;
 }
+
+#jen2 {
+  width: 150px;
+}
+
+#blurb2 {
+  font-size: 16px;
+}
+
+.parallax-container {
+  height: 620px !important;
+}
+}
+
+@media only screen and (max-width: 462px) {
+.overlay4 {
+ width: 80%;
+}
+
+.overlay3 {
+  font-size: 35px;
+} 
 }
 
 @media only screen and (max-width: 450px) {
   .rectangle {
     width: 60%;
   }
+}
+
+@media only screen and (max-width: 450px) {
+.overlay3 {
+  font-size: 30px;
+} 
 }
 
 @media only screen and (max-width: 392px) {
@@ -713,6 +910,10 @@ h4 {
   @media only screen and (max-width: 350px) {
   .carousel-slider {
     height: 250px !important;
+  }
+
+  .parallax-container {
+    height: 650px !important;
   }
 }
 
