@@ -532,7 +532,7 @@ footer {
 
 .carousel-slider {
   background-color: #3c7e84;
-  height: 600px !important;
+  height: 625px !important;
   margin-top: 50px;
 }
 
@@ -547,57 +547,17 @@ footer {
   padding-top: 20px;
 }
 
-@media only screen and (max-width: 1540px) {
-  #jen1 {
-    margin-top: 23vh;
-  }
-
-  .overlay1 {
-    font-size: 4.5vw;
-  }
-  
-  .overlay2, #blurb1 {
-    font-size: 1.5vw;  
-  }
-}
-
-@media only screen and (max-width: 1466px) {
-  .card-content {
-    height: 250px;
+@media only screen and (max-width: 1500px) {
+.carousel-slider {
+  height: 575px !important;
 }
 }
 
-@media only screen and (max-width: 1400px) {
-  #jen1 {
-    margin-top: 26vh;
-    width: 275px;
+@media only screen and (max-width: 1350px) {
+  .carousel-slider {
+    height: 550px !important;
   }
-
-  .overlay1 {
-    margin-top: 24vh;
-    font-size: 4.5vw;
   }
-  
-  .overlay2, #blurb1 {
-    font-size: 1.5vw;  
-  }
-}
-
-@media only screen and (max-width: 1220px) {
-  #jen1 {
-    margin-top: 27vh;
-    width: 265px;
-  }
-
-  .overlay1 {
-    margin-top: 24vh;
-    font-size: 4.6vw;
-  }
-  
-  .overlay2, #blurb1 {
-    font-size: 1.6vw;  
-  }
-}
 
 @media only screen and (max-width: 1214px) {
   .card-content {
@@ -605,9 +565,19 @@ footer {
 }
 }
 
+@media only screen and (max-width: 1200px) {
+  .carousel-slider {
+    height: 500px !important;
+  }
+  }
+
 @media only screen and (max-width: 1030px) {
   .card-content {
   height: 285px;
+}
+
+.carousel-slider {
+  height: 450px !important;
 }
 }
 
@@ -634,24 +604,6 @@ padding-top: 20px;
   width: 50% !important;
 }
 
-.carousel-slider {
-  height: 400px !important;
-}
-
-#jen2 {
-  margin-top: 4vh;
-  width: 200px;
-}
-
-.overlay3 {
-  margin-top: 8vh;
-  font-size: 5.5vw;
-}
-
-.overlay4, #blurb2 {
-  font-size: 2vw;  
-}
-
 h4 {
   padding-bottom: 70px;
 }
@@ -666,37 +618,19 @@ h4 {
 .card-content {
   height: 200px;
 }
-
 }
 
-@media only screen and (max-width: 880px) {
-  #jen2 {
-    margin-top: 3.75vh;
-    width: 200px;
-  }
-  
-  .overlay3 {
-    font-size: 5.75vw;
-  }
-  
-  .overlay4, #blurb2 {
-    font-size: 2.25vw;  
-  }
+@media only screen and (max-width: 920px) {
+.carousel-slider {
+  height: 425px !important;
+}
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 800px) {
   .carousel-slider {
-    height: 350px !important;
+    height: 400px !important;
   }
-
-  .parallax-container {
-    height: 550px !important;
   }
-
-  #jen2 {
-    width: 175px;
-  }
-}
 
 @media only screen and (max-width: 741px) {
 .card-content {
@@ -710,37 +644,23 @@ h4 {
 .skill-descrip {
   font-size: 12px;
 }
-}
 
-@media only screen and (max-width: 700px) { 
-  .overlay3 {
-    font-size: 6vw;
-  }
-  
-  .overlay4, #blurb2 {
-    font-size: 2.5vw;  
-  }
+.carousel-slider {
+  height: 375px !important;
+}
 }
 
 @media only screen and (max-width: 687px) {
   .card-content {
     height: 235px;
   }
+
+  .carousel-slider {
+    height: 350px !important;
+  }
   }
 
 @media only screen and (max-width: 600px) { 
-  .overlay3 {
-    font-size: 6.5vw;
-  }
-  
-  .overlay4, #blurb2 {
-    font-size: 2.75vw;  
-  }
-
-  #jen2 {
-    margin-top: 3.5vh
-  }
-
   .card {
     width: 90% !important; 
   }
@@ -752,11 +672,9 @@ h4 {
   .rectangle {
     width: 40%;
   }
-}
 
-@media only screen and (max-width: 580px) {
   .carousel-slider {
-    height: 300px !important;
+    height: 325px !important;
   }
 }
 
@@ -764,46 +682,23 @@ h4 {
 .rectangle {
   width: 50%;
 }
+
+.carousel-slider {
+  height: 300px !important;
 }
-
-@media only screen and (max-width: 500px) { 
-  .parallax-container {
-    height: 525px !important;
-  }
-
-  #jen2 {
-    margin-top: 3vh;
-    width: 150px;
-  }
-
-  .overlay3 {
-    font-size: 6.75vw;
-  }
-  
-  .overlay4, #blurb2 {
-    font-size: 3vw;  
-  }
 }
 
 @media only screen and (max-width: 470px) {
 .card-content {
   height: 260px;
 }
+
+.carousel-slider {
+  height: 275px !important;
+}
 }
 
 @media only screen and (max-width: 450px) {
-  .carousel-slider {
-    height: 275px !important;
-  }
-
-  .overlay3 {
-    font-size: 7vw;
-  }
-  
-  .overlay4, #blurb2 {
-    font-size: 3.5vw;  
-  }
-
   .rectangle {
     width: 60%;
   }
@@ -815,25 +710,9 @@ h4 {
   }
   }
 
-@media only screen and (max-width: 370px) {
-  .parallax-container {
-    height: 500px !important;
-  }
-
+  @media only screen and (max-width: 350px) {
   .carousel-slider {
     height: 250px !important;
-  }
-
-  .overlay3 {
-    font-size: 7.5vw;
-  }
-  
-  .overlay4, #blurb2 {
-    font-size: 3.75vw;  
-  }
-
-  #jen2 {
-    width: 125px;
   }
 }
 
