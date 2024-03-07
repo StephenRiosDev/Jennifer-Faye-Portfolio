@@ -256,6 +256,10 @@ nav ul li:hover {
   height: 220px;
 }
 
+#guru-pic {
+  padding-top: 20px;
+}
+
 /* SKILLS SECTION   */
 .rectangle {
   display: block;
@@ -444,9 +448,9 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 80%;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 25px;
 }
 
 #wire-pics1, #wire-pics2, #wire-pics3 {
