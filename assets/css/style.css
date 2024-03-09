@@ -385,22 +385,46 @@ footer {
   margin-left: auto;
   margin-right: auto;
   font-size: 18px;
-  width: 90%;
+  width: 100%;
+  padding: 10px 0 20px 0;
 }
 
 .sub-sub2 {
   text-align: center;
   font-size: 35px !important;
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 20px;
+}
+
+.sub-sub4 {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #121212;
+  font-weight: 500;
+  padding-bottom: 10px;
+  margin-top: -50px;
+}
+
+.sub-sub5 {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding-bottom: 10px;
+  padding-top: 60px;
+}
+
+.sub-sub6 {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 #redo-pic1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-  padding: 20px 0 20px 0;
+  width: 90%;
+  padding: 20px 0 40px 0;
 }
 
 .img-background {
@@ -414,8 +438,7 @@ footer {
 }
 
 .top-title {
-  padding-top: 100px;
-  margin-bottom: -50px;
+  margin-bottom: -60px;
 }
 
 .survey-wrapper {
@@ -423,7 +446,7 @@ footer {
 }
 
 .persona-wrapper {
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 40px 0px;
 }
 
 .survey-pics {
@@ -446,7 +469,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 69%;
   padding-top: 5px;
   padding-bottom: 25px;
 }
@@ -468,23 +491,6 @@ footer {
   color: #121212;
   font-weight: 500;
   padding-bottom: 10px;
-}
-
-.sub-sub4 {
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  color: #121212;
-  font-weight: 500;
-  padding-bottom: 10px;
-  margin-top: -50px;
-}
-
-.sub-sub5 {
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  padding-bottom: 10px;
-  padding-top: 20px;
 }
 
 #mock-pics1, #mock-pics2, #mock-pics3, #mock-pics4 {
@@ -585,7 +591,11 @@ footer {
   margin-right: auto;
   width: 95%;
   height: auto;
-  /* padding: 0 40px 0 40px; */
+  padding: 0 0 40px 0;
+}
+
+#top-wrapper {
+  padding-top: 100px;
 }
 
 @media only screen and (max-width: 1500px) {
