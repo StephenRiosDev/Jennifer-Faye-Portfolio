@@ -175,40 +175,38 @@ nav ul li:hover {
 }
 
 .overlay1 {
-  clear: both;
-  margin: auto;
-  margin-top: 20vh;
-  margin-left: 10vw;
+  text-align: center;
+  margin-top: 26vh;
   font-family: "futura-pt", sans-serif;
   font-weight: 500;
   font-style: normal;
   color: #121212;
   font-size: 4.5vw;
-  font-weight: light;
+
 }
 
 .overlay2 {
-  margin: auto;
-  margin-left: 10vw;
-  width: 50%;
+  text-align: center;
   font-family: "futura-pt", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #121212;
   font-size: 1.5vw;  
-  font-weight: 500;
   letter-spacing: 7px;
   padding: 20px 0 20px 0;
+
 }
 
 #blurb1 {
+  text-align: left;
   font-size: 1.5vw;
-  margin-left: 10vw;
-  width: 60%;
+  line-height: 1.2;
   color: #121212;
   font-family: "futura-pt", sans-serif;
   font-weight: 400;
   font-style: normal;
+
+
 }
 
 /* Tablet/Mobile */
@@ -637,7 +635,7 @@ footer {
   margin-right: auto;
   width: 95%;
   height: auto;
-  padding: 0 0 40px 0;
+  padding: 40px 0 40px 0;
 }
 
 #top-wrapper {
@@ -665,7 +663,7 @@ height: 700px;
 
 
 @media only screen and (max-width: 1500px) {
-.overlay1 {
+/* .overlay1 {
   font-size: 4.65vw;
 }
 
@@ -675,11 +673,11 @@ height: 700px;
 
 #blurb1 {
   font-size: 1.65vw;
-}
+} */
 }
 
-@media only screen and (max-width: 1266px) {
-.overlay1 {
+/* @media only screen and (max-width: 1266px) { */
+/* .overlay1 {
   font-size: 4.75vw;
 }
   
@@ -690,7 +688,7 @@ height: 700px;
   
 #blurb1 {
    font-size: 1.75vw;
- }}
+ }} */
 
 @media only screen and (max-width: 1214px) {
   .card-content {
@@ -699,7 +697,7 @@ height: 700px;
 }
 
 @media only screen and (max-width: 1200px) {
-  .overlay1 {
+  /* .overlay1 {
     font-size: 4.85vw;
   }
   
@@ -710,7 +708,7 @@ height: 700px;
   
   #blurb1 {
     font-size: 1.85vw;
-  }
+  } */
 
   #redo-pic1 {
     height: 55vh;
@@ -720,7 +718,7 @@ height: 700px;
 
  @media only screen and (max-width: 1100px) { 
 
-#jen1 {
+/* #jen1 {
   width: 275px;
   margin-top: 28vh;
 }
@@ -735,7 +733,7 @@ height: 700px;
     
 #blurb1 {
   font-size: 1.95vw;
-}
+} */
 
 #redo-pic1 {
   height: 50vh;
@@ -750,9 +748,9 @@ height: 750px;
 }
 
 @media only screen and (max-width: 1042px) { 
-  .overlay2 {
+  /* .overlay2 {
     width: 70%;
-  }
+  } */
   }
 
 @media only screen and (max-width: 1030px) {
@@ -810,7 +808,7 @@ h4 {
   height: 200px;
 }
 
-.overlay3 {
+/* .overlay3 {
   font-size: 5vw;
   padding: 0px 0 10px 0;
 }
@@ -831,16 +829,16 @@ h4 {
   width: 50%;
   text-align: left;
   line-height: 1.5;
-}
+} */
 
-.parallax-container {
+/* .parallax-container {
   height: 670px !important;
-}
+} */
 
 }
 
 @media only screen and (max-width: 920px) {
-.overlay3 {
+/* .overlay3 {
   font-size: 5.25vw;
 }
 
@@ -851,12 +849,12 @@ h4 {
 
 #blurb2 {
   font-size: 19px;
-}
+} */
 
 }
 
 @media only screen and (max-width: 800px) {
-.overlay3 {
+/* .overlay3 {
   font-size: 5.5vw;
 }
 
@@ -867,11 +865,11 @@ h4 {
 
 #blurb2 {
   font-size: 18px;
-}
+} */
   }
 
   @media only screen and (max-width: 744px) {  
-    .overlay4 {
+    /* .overlay4 {
       font-size: 2.75vw;
      width: 60%;
     } 
@@ -882,7 +880,7 @@ h4 {
     
     #blurb2 {
      width: 60%;
-    }
+    } */
     }
 
 @media only screen and (max-width: 741px) {
@@ -905,14 +903,14 @@ h4 {
     height: 235px;
   }
 
-  .overlay4 {
+  /* .overlay4 {
     font-size: 3vw;
    width: 60%;
   } 
 
   .overlay3 {
     font-size: 6vw;
-  }  
+  }   */
   
   }
 
@@ -929,14 +927,14 @@ h4 {
     width: 40%;
   }
 
-  .overlay3 {
+  /* .overlay3 {
     font-size: 6.5vw;
   } 
 
   .overlay4 {
     font-size: 3.25vw;
    width: 70%;
-  } 
+  }  */
 }
 
 @media only screen and (max-width: 550px) { 
@@ -944,7 +942,7 @@ h4 {
   width: 50%;
 }
 
-.overlay3 {
+/* .overlay3 {
   font-size: 40px;
 } 
 
@@ -956,7 +954,7 @@ h4 {
 #blurb2 {
   font-size: 17px;
   width: 70%;
-}
+} */
 }
 
 @media only screen and (max-width: 470px) {
@@ -964,7 +962,7 @@ h4 {
   height: 260px;
 }
 
-#jen2 {
+/* #jen2 {
   width: 150px;
 }
 
@@ -974,17 +972,17 @@ h4 {
 
 .parallax-container {
   height: 620px !important;
-}
+} */
 }
 
 @media only screen and (max-width: 462px) {
-.overlay4 {
+/* .overlay4 {
  width: 80%;
 }
 
 .overlay3 {
   font-size: 35px;
-} 
+}  */
 }
 
 @media only screen and (max-width: 450px) {
@@ -994,9 +992,9 @@ h4 {
 }
 
 @media only screen and (max-width: 450px) {
-.overlay3 {
+/* .overlay3 {
   font-size: 30px;
-} 
+}  */
 }
 
 @media only screen and (max-width: 392px) {
@@ -1006,9 +1004,9 @@ h4 {
   }
 
   @media only screen and (max-width: 350px) {
-  .parallax-container {
+  /* .parallax-container {
     height: 650px !important;
-  }
+  } */
 }
 
 @media only screen and (max-width: 331px) {
