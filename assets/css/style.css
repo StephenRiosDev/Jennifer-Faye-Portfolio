@@ -82,7 +82,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  background-color: #317a9f;
+  background: rgba(0,0,0,0.1);
 }
 
 /* sidenav settings */
@@ -107,7 +107,6 @@ nav ul li:hover {
 
 .sidenav-trigger {
   overflow: hidden;
-  background-color: transparent;
   position: fixed; 
   top: 0; 
   width: 100%; 
@@ -159,7 +158,7 @@ nav ul li:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   width: 20%;
   border: 2px solid #031d2a;
 }
@@ -202,16 +201,16 @@ nav ul li:hover {
 }
 
 /* Tablet/Mobile */
-/* #jen2 {
+#jen2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 175px;
   margin-top: 7vh;
   border: 4px solid #031d2a;
-} */
+}
 
-.overlay3 {
+/* .overlay3 {
   margin: auto;
   margin-top: 10vh;
   width: 90%;
@@ -248,7 +247,7 @@ nav ul li:hover {
   font-family: "futura-pt", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
+} */
 
 /* PROJECTS SECTION  */
 .card {
@@ -709,10 +708,10 @@ height: 700px;
 
  @media only screen and (max-width: 1100px) { 
 
-/* #jen1 {
+#jen1 {
   width: 275px;
   margin-top: 28vh;
-} */
+}
 .overlay1 {
   font-size: 4.95vw;
 }
@@ -808,12 +807,12 @@ h4 {
   width: 40%;
   font-size: 2vw;
 }
-/* 
+
 #jen2 {
   margin-top: 20px;
   margin-bottom: 20px;
 
-} */
+}
 
 #blurb2 {
   font-size: 20px;
@@ -953,9 +952,9 @@ h4 {
   height: 260px;
 }
 
-/* #jen2 {
+#jen2 {
   width: 150px;
-} */
+}
 
 #blurb2 {
   font-size: 16px;
