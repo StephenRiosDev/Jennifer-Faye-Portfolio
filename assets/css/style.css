@@ -1,14 +1,18 @@
 /* GLOBAL SETTINGS */
 body {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: #f7f7f7;
   color: #121212;
   line-height: 1.6;
 }
 
 h1, h2, h3, h4, h6 {
-  font-family: 'Poiret One', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 h4 {
@@ -19,7 +23,9 @@ h4 {
 }
 
 h5 {
-  font-family: 'Poiret One', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: #333333;
   text-align: left;
 }
@@ -161,7 +167,9 @@ nav ul li:hover {
   margin: auto;
   margin-top: 20vh;
   margin-left: 10vw;
-  font-family: 'Poiret One', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   color: #fff;
   font-size: 4.5vw;
   font-weight: light;
@@ -171,7 +179,9 @@ nav ul li:hover {
   margin: auto;
   margin-left: 10vw;
   width: 50%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #fff;
   font-size: 1.5vw;  
   font-weight: 500;
@@ -184,7 +194,9 @@ nav ul li:hover {
   margin-left: 10vw;
   width: 60%;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Tablet/Mobile */
@@ -201,7 +213,9 @@ nav ul li:hover {
   margin: auto;
   margin-top: 10vh;
   width: 90%;
-  font-family: 'Poiret One', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   color: #fff;
   font-size: 4.25 vw;
   font-weight: light;
@@ -212,7 +226,9 @@ nav ul li:hover {
   margin: auto;
   padding: 10px 0 10px 0;
   width: 90%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #Fff;
   font-size: 1.25 vw;
   letter-spacing: 5px;
@@ -227,7 +243,9 @@ nav ul li:hover {
   margin-top: 6px;
   width: 68%;
   color: #Fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* PROJECTS SECTION  */
@@ -236,12 +254,15 @@ nav ul li:hover {
 }
 
 .card-action {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .card-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   text-align: left;
   font-size: 20px !important;
 }
@@ -251,7 +272,9 @@ nav ul li:hover {
 }
 
 .card-content {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   text-align: left;
   height: 220px;
 }
@@ -398,7 +421,9 @@ footer {
 
 .sub-sub3 {
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #121212;
   font-weight: 500;
   padding-bottom: 10px;
@@ -406,7 +431,9 @@ footer {
 
 .sub-sub4 {
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #121212;
   font-weight: 500;
   padding-bottom: 10px;
@@ -415,15 +442,17 @@ footer {
 
 .sub-sub5 {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-style: normal;
   font-weight: 500;
   padding-top: 60px;
 }
 
 .sub-sub6 {
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "futura-pt", sans-serif;
   font-weight: 400;
+  font-style: normal;
   margin-bottom: -20px;
 }
 
@@ -608,7 +637,9 @@ height: 700px;
 }
 
 #problem {
-  font-family: 'Poiret One', sans-serif;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 35px;
   line-height: 1.2;
   color: #121212;
