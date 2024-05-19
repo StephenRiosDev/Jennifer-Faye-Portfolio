@@ -285,9 +285,6 @@ nav ul li:hover {
   height: 220px;
 }
 
-#guru-pic {
-  padding-top: 20px;
-}
 
 /* SKILLS SECTION   */
 .rectangle {
@@ -665,6 +662,14 @@ footer {
   background-color: whitesmoke;
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
+}
+
+/* CRAIGSLIST REDESIGN PAGE */
+
+#mockup-phone {
+  width: 40vw;
+  margin: 40px;
+  border-radius: 2px;
 }
 
 
