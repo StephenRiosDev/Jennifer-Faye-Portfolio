@@ -37,7 +37,7 @@ h5 {
   
 /* mouse over link */
 a:hover {
-  color:white;
+  text-decoration: underline;
 }
   
 /* selected link */
@@ -128,7 +128,7 @@ nav ul li:hover {
   background: rgb(70,140,176);
   background: linear-gradient(90deg, rgba(70,140,176,1) 0%, rgba(172,235,216,1) 100%);
   line-height: 1;
-  height: 700px;
+  height: 800px;
 }
 
 #skills-section {
@@ -174,7 +174,7 @@ nav ul li:hover {
 
 .overlay1 {
   text-align: left;
-  margin-top: 20vh;
+  margin-top: 25vh;
   font-family: "futura-pt", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -192,7 +192,7 @@ nav ul li:hover {
   font-size: 1.7vw;  
   letter-spacing: 7px;
   line-height: 1.4;
-  padding: 15px 0 15px 0;
+  padding: 80px 0 15px 0;
 }
 
 #blurb1 {
@@ -671,6 +671,16 @@ footer {
   border-radius: 2px;
 }
 
+#mockup-responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100%;
+  border-radius: 2px;
+}
+
+
 .mood-pics {
   display: block;
   margin-left: auto;
@@ -682,11 +692,54 @@ footer {
 }
 
 .c-og {
-  margin: 10px;
+  margin: 30px;
   border-radius: 12px;
   border: 3px solid !important;
   border: outset #000000;
-  width: 9.7vw;
+  width: 12vw;
+}
+
+#R-01 {
+  margin: 30px;
+  border-radius: 12px;
+  border: 3px solid !important;
+  border: outset #000000;
+  width: 30%;
+}
+#R-02 {
+  margin: 30px;
+  border-radius: 12px;
+  border: 3px solid !important;
+  border: outset #000000;
+  width: 17%;
+}
+#R-03 {
+  margin: 30px;
+  border-radius: 12px;
+  border: 3px solid !important;
+  border: outset #000000;
+  width: 10%;
+}
+#R-04 {
+  margin: 30px;
+  border-radius: 12px;
+  border: 3px solid !important;
+  border: outset #000000;
+  width: 30%;
+}
+#R-05 {
+  margin: 30px;
+  border-radius: 12px;
+  border: 3px solid !important;
+  border: outset #000000;
+  width: 17%;
+}
+#R-06 {
+  margin: 30px;
+  border-radius: 12px;
+  border: 3px solid !important;
+  border: outset #000000;
+  width: 10%;
 }
 
 .C-wrap {
@@ -699,6 +752,28 @@ footer {
   margin-bottom: 60px;
 }
 
+#S-System {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+  padding: 40px 0 40px 0;
+}
+
+.vid-animation {
+  background-color: black;
+  padding: 40px;
+}
+
+#style-guide-box {
+padding: 30px 80px 30px 80px;
+margin-left: 150px;
+margin-right: 150px;
+background-color: whitesmoke;
+border-top-left-radius: 100px;
+border-bottom-right-radius: 100px;
+}
 
 #proto-pic5, #proto-pic6, #proto-pic7 {
   border-radius: 12px;
