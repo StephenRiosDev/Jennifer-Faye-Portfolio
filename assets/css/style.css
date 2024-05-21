@@ -760,11 +760,15 @@ footer {
   margin-bottom: 60px;
 }
 
+.m-right {
+ margin-right: 70px;
+}
+
 #S-System {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
   height: auto;
   padding: 40px 0 40px 0;
 }
