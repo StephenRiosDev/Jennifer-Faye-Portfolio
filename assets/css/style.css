@@ -17,6 +17,7 @@ h1, h2, h3, h4, h6 {
 h4 {
   text-align: left;
   font-size: 50px !important;
+  padding-bottom: 20px;
 }
 
 h5 {
@@ -30,7 +31,7 @@ h5 {
 .sub-sub {
   font-size: 35px !important;
   text-align: left;
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 20px;
   margin-left: 25px;
 }
@@ -133,8 +134,6 @@ nav ul li:hover {
 
 #skills-section {
   overflow: auto;
-  /* background: rgb(70,140,176);
-  background: linear-gradient(90deg, rgba(70,140,176,1) 0%, rgba(172,235,216,1) 100%); */
   line-height: 1;
 }
 
@@ -151,18 +150,17 @@ nav ul li:hover {
 }
 
 #about, #skills, #projects{
-  margin-top: 140px;
-  margin-bottom: 350px;
+  margin-top: 60px;
+  margin-bottom: 30px;
   width: 100%;
 }
 
 #contact, #contact2 {
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 20px;
 }
 
 /* HOME SECTION */
-/* Desktop */
 #jen1 {
   display: block;
   margin-left: auto;
@@ -204,55 +202,6 @@ nav ul li:hover {
   font-weight: 400;
   font-style: normal;
 }
-
-/* Tablet/Mobile */
-/* #jen2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 175px;
-  margin-top: 7vh;
-  border: 2px solid #031d2a;
-} */
-
-/* .overlay3 {
-  margin: auto;
-  margin-top: 10vh;
-  width: 90%;
-  font-family: "futura-pt", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  color: #fff;
-  font-size: 4.25 vw;
-  font-weight: light;
-  text-align: center;
-}
-
-.overlay4 {
-  margin: auto;
-  padding: 10px 0 10px 0;
-  width: 90%;
-  font-family: "futura-pt", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #Fff;
-  font-size: 1.25 vw;
-  letter-spacing: 5px;
-  text-align: center;
-  font-weight: 500;
-}
-
-#blurb2 {
-  text-align: center;
-  font-size: 18px;
-  margin: auto;
-  margin-top: 6px;
-  width: 68%;
-  color: #Fff;
-  font-family: "futura-pt", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-} */
 
 /* PROJECTS SECTION  */
 .card {
