@@ -220,6 +220,8 @@ nav ul li:hover {
   font-style: normal;
   text-align: left;
   font-size: 20px !important;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .card-skills {
