@@ -658,6 +658,7 @@ footer {
   color: #121212;
   padding: 30px 80px 30px 80px;
   margin-bottom: 20px;
+  margin-top: 20px;
   background-color: whitesmoke;
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
@@ -697,6 +698,13 @@ footer {
   border: 3px solid !important;
   border: outset #000000;
   width: 12vw;
+}
+
+.ti-og {
+  margin: 10px;
+  border: 1px solid !important;
+  border: outset #000000;
+  width: 22%;
 }
 
 #R-01 {
@@ -770,6 +778,17 @@ footer {
 padding: 30px 80px 30px 80px;
 margin-left: 150px;
 margin-right: 150px;
+margin-bottom: 20px;
+background-color: whitesmoke;
+border-top-left-radius: 100px;
+border-bottom-right-radius: 100px;
+}
+
+.comparison-box {
+  padding: 30px 80px 30px 80px;
+margin-left: 150px;
+margin-right: 150px;
+margin-bottom: 25px;
 background-color: whitesmoke;
 border-top-left-radius: 100px;
 border-bottom-right-radius: 100px;
@@ -782,7 +801,7 @@ border-bottom-right-radius: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 12vw;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
