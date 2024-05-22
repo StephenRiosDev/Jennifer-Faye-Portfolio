@@ -10,8 +10,8 @@ body {
 
 h1, h2, h3, h4, h6 {
   font-family: "futura-pt", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-weight: 500 !important;
+  font-style: bold !important;
 }
 
 h4 {
@@ -379,7 +379,6 @@ footer {
   font-size: 20px;
   font-family: "futura-pt", sans-serif;
   font-weight: 400;
-  font-style: normal;
   color: #121212;
   font-weight: 500;
   padding-bottom: 10px;
@@ -388,8 +387,6 @@ footer {
 .sub-sub4 {
   font-size: 20px;
   font-family: "futura-pt", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   color: #121212;
   font-weight: 500;
   padding-bottom: 10px;
@@ -400,7 +397,6 @@ footer {
 .sub-sub5 {
   font-size: 18px;
   font-family: "futura-pt", sans-serif;
-  font-style: normal;
   font-weight: 600;
   padding-top: 60px;
   line-height: 1.4;
@@ -410,7 +406,6 @@ footer {
   font-size: 18px;
   font-family: "futura-pt", sans-serif;
   font-weight: 400;
-  font-style: normal;
   margin-bottom: -20px;
   line-height: 1.4;
 }
@@ -590,16 +585,25 @@ footer {
   width: 80%;
 }
 
-#problem {
+.text-emphasis {
   font-family: "futura-pt", sans-serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 35px;
-  line-height: 1.2;
+  font-size: 32px;
+
   color: #121212;
+}
+
+.inner-box {
   padding: 30px 80px 30px 80px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin: 20px 0 20px 0;
+  background-color: whitesmoke;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.outer-box {
+  padding: 30px 80px 30px 80px;
+  margin: 20px;
   background-color: whitesmoke;
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
@@ -647,11 +651,24 @@ footer {
   width: 12vw;
 }
 
-.ti-og {
-  margin: 10px;
-  border: 1px solid !important;
-  border: outset #000000;
-  width: 22%;
+.before {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-width: 2px; 
+  border: solid;
+  border-color: #666666;
+}
+
+.after {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-width: 2px; 
+  border: solid;
+  border-color: #6A2983;
 }
 
 #R-01 {
@@ -712,10 +729,6 @@ footer {
   margin-bottom: 60px;
 }
 
-.m-right {
- margin-right: 70px;
-}
-
 #S-System {
   display: block;
   margin-left: auto;
@@ -723,31 +736,6 @@ footer {
   width: 100%;
   height: auto;
   padding: 40px 0 40px 0;
-}
-
-#animation-box {
-  padding: 40px;
-  background-color: whitesmoke;
-}
-
-#style-guide-box {
-  padding: 30px 80px 30px 80px;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 20px;
-  background-color: whitesmoke;
-  border-top-left-radius: 100px;
-  border-bottom-right-radius: 100px;
-}
-
-.comparison-box {
-  padding: 30px 80px 30px 80px;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 25px;
-  background-color: whitesmoke;
-  border-top-left-radius: 100px;
-  border-bottom-right-radius: 100px;
 }
 
 #proto-pic5, #proto-pic6, #proto-pic7 {
