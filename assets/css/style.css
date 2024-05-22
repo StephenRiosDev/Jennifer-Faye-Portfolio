@@ -725,9 +725,9 @@ footer {
   padding: 40px 0 40px 0;
 }
 
-.vid-animation {
-  background-color: black;
+#animation-box {
   padding: 40px;
+  background-color: whitesmoke;
 }
 
 #style-guide-box {
