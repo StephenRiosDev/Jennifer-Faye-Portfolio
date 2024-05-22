@@ -6,9 +6,9 @@ A mobile responsive portfolio designed with Materialize.
 
 ## Description
 
-A website displaying the work of Jennifer Faye, a full stack web developer. Using Materialize's Scrollspy, items are clicked on the navigation menu on the right side of the page and the website scrolls down to the corresponding area. 
+A website displaying the work of Jennifer Faye, a UX/UI Designer and front end web developer. Using Materialize's Scrollspy, items are clicked on the navigation menu on the right side of the page and the website scrolls down to the corresponding area. 
 
-Projects are displayed in Materialize cards and can be opened to reveal more information and links to the apps and repositories. 
+Projects are displayed in Materialize cards with more information and links to the apps and repositories. 
 
 This project has a mobile responsive design and intuitive user interface.
 
