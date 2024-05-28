@@ -8,32 +8,45 @@ body {
   line-height: 1.4;
 }
 
-h1, h2, h3, h4, h6 {
-  font-family: "futura-pt", sans-serif;
+h1, h2, h3, h4, h5, h6 {
   font-weight: 500 !important;
   font-style: bold !important;
+  line-height: 1.4 !important;
+}
+
+h1 {
+  font-size: 69px !important;
+  line-height: 1.2 !important;
+}
+
+h2 {
+  font-size: 55px !important;
+}
+
+h3 {
+  font-size: 44px !important;
 }
 
 h4 {
-  text-align: left;
-  font-size: 50px !important;
-  padding-bottom: 20px;
+  font-size: 35px !important;
 }
 
 h5 {
-  font-family: "futura-pt", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #333333;
-  text-align: left;
+  font-size: 28px !important;
 }
 
-.sub-sub {
-  font-size: 35px !important;
-  text-align: left;
-  padding-top: 0px;
-  padding-bottom: 20px;
-  margin-left: 25px;
+h6 {
+  font-size: 23px !important;
+}
+
+p {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 1.4 !important;
+}
+
+.indent {
+  margin-left: 32px;
 }
   
 /* mouse over link */
@@ -129,6 +142,7 @@ nav ul li:hover {
   background: linear-gradient(90deg, rgba(70,140,176,1) 0%, rgba(172,235,216,1) 100%);
   line-height: 1;
   height: 800px;
+  margin-top: -80px;
 }
 
 #skills-section {
@@ -140,23 +154,6 @@ nav ul li:hover {
   background: rgb(70,140,176);
   background: linear-gradient(90deg, rgba(70,140,176,1) 0%, rgba(172,235,216,1) 100%);
   overflow: auto;
-}
-
-/* scroll points for scrollspy navbar */
-#home {
-  margin-top: -80px;
-  overflow: auto;
-}
-
-#about, #skills, #projects{
-  margin-top: 60px;
-  margin-bottom: 30px;
-  width: 100%;
-}
-
-#contact, #contact2 {
-  margin-top: 60px;
-  margin-bottom: 20px;
 }
 
 /* HOME SECTION */
@@ -172,35 +169,26 @@ nav ul li:hover {
 
 .overlay1 {
   text-align: left;
-  margin-top: 27vh;
-  font-family: "futura-pt", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+  margin-top: 25vh;
+  font-size: 100px !important;
   color: #121212;
-  font-size: 6vw;
   margin-bottom: 0px;
 }
 
 .overlay2 {
   text-align: left;
-  font-family: "futura-pt", sans-serif;
+  font-size: 28px !important;
   font-weight: 400;
-  font-style: normal;
   color: #121212;
-  font-size: 1.7vw;  
   letter-spacing: 7px;
-  line-height: 1.4;
-  padding: 80px 0 15px 0;
+  padding: 64px 0 8px 0;
 }
 
 #blurb1 {
+  font-weight: 400 !important;
   text-align: left;
-  font-size: 1.5vw;
-  line-height: 1.4;
-  color: #121212;
-  font-family: "futura-pt", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  color: #121212;
 }
 
 /* PROJECTS SECTION  */
@@ -415,10 +403,7 @@ footer {
   margin-right: auto;
   height: 55vh;
   float: right;
-}
-
-.top-title {
-  margin-top: 0px;
+  margin-top: 6vh;
 }
 
 #img-top {
@@ -428,9 +413,9 @@ footer {
   line-height: 1;
 }
 
-#top-wrapper1 {
-  margin-top: 32vh;
-  height: 575px;
+.top-wrapper {
+  margin-top: 20vh;
+  height: 600px;
 }
 
 #case {
@@ -586,9 +571,8 @@ footer {
 
 .text-emphasis {
   font-family: "futura-pt", sans-serif;
-  font-weight: 400;
-  font-size: 32px;
-
+  font-weight: 400 !important;
+  font-size: 32px !important;
   color: #121212;
 }
 
@@ -610,11 +594,6 @@ footer {
 
 /* CRAIGSLIST REDESIGN PAGE */
 
-#top-wrapper2 {
-  margin-top: 32vh;
-  height: 530px;
-}
-
 #mockup-phone {
   display: block;
   margin-left: auto;
@@ -622,6 +601,7 @@ footer {
   height: 45vh;
   float: right;
   border-radius: 2px;
+  margin-top: 8vh;
 }
 
 #mockup-responsive {
