@@ -364,7 +364,6 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-size: 18px;
   width: 100%;
   padding: 10px 0 20px 0;
 }
@@ -705,38 +704,32 @@ footer {
   padding: 40px 0 40px 0;
 }
 
-#proto-pic5, #proto-pic6, #proto-pic7 {
+.proto-image2 {
   border-radius: 12px;
   border: 3px solid !important;
   border: outset #000000;
+  width: 70%;
+}
+
+#proto-pic5, #proto-pic6, #proto-pic7 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 12vw;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
 
 #proto-pic5:hover {
-  border-radius: 12px !important;
-  border: 3px solid !important;
-  border: outset #000000 !important;
   filter: none;
   -webkit-filter: grayscale(0);
 }
 
 #proto-pic6:hover {
-  border-radius: 12px !important;
-  border: 3px solid !important;
-  border: outset #000000 !important;
   filter: none;
   -webkit-filter: grayscale(0);
 }
 
 #proto-pic7:hover {
-  border-radius: 12px !important;
-  border: 3px solid !important;
-  border: outset #000000 !important;
   filter: none;
   -webkit-filter: grayscale(0);
 }
