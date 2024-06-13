@@ -269,6 +269,16 @@ nav ul li:hover {
   color: whitesmoke;
 }
 
+.career-id {
+  color: #333333;
+}
+
+blockquote {
+  border-color: rgba(70,140,176,1) !important;
+}
+
+
+
 /* CONTACT SECTION */
 
 #contact-title {
@@ -714,7 +724,7 @@ footer {
   -webkit-filter: grayscale(0);
 }
 
-@media only screen and (max-width: 1214px) {
+/* @media only screen and (max-width: 1214px) {
   .card-content {
     height: 260px;
   }
@@ -866,5 +876,4 @@ footer {
 
   .rectangle {
     width: 80%;
-  }
-}
+  } */
