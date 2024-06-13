@@ -232,7 +232,7 @@ nav ul li:hover {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  background-color: #FFFEFA;
+  background-color: whitesmoke;
 }
 
 .each-logo {
@@ -275,6 +275,50 @@ nav ul li:hover {
 
 blockquote {
   border-color: rgba(70,140,176,1) !important;
+}
+
+/* Carousel Testimonial */
+
+.carousel {
+  width: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 50px;
+}
+.testimonial {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; 
+  padding: 20px;
+  background-color: whitesmoke;
+  font-size: 24px;
+}
+
+.testimonial p {
+  text-align: left;
+  margin: 0;
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: color 0.3s; /* Add transition for smoother color change */
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
 }
 
 /* CONTACT SECTION */

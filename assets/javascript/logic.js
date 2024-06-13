@@ -39,3 +39,13 @@ $(document).ready(function(){
       // }
     }
 });
+
+let testimonials = document.querySelectorAll('.testimonial');
+  let currentIndex = 0;
+  testimonials[currentIndex].style.display = 'block';
+
+  function changeTestimonial(n) {
+    testimonials[currentIndex].style.display = 'none';
+    currentIndex = (currentIndex + n + testimonials.length) % testimonials.length;
+    testimonials[currentIndex].style.display = 'block';
+  }
