@@ -849,7 +849,7 @@ footer {
   }
 
   .testimonial {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .career-id {
@@ -899,6 +899,15 @@ footer {
   }
 }
 
+@media (max-width: 857px) {
+.testimonial {
+  font-size: 18px;
+}
+
+.career-id {
+  font-size: 16px;
+}
+}
 
 @media (max-width: 830px) {
   .overlay2 {
@@ -932,12 +941,32 @@ footer {
   .blurb1 {
     font-size: 3.5vw !important;
   }
+
+
+    .testimonial {
+      font-size: 16px;
+    }
+
+    .career-id {
+      font-size: 14px;
+    }
+    
 }
 
 @media (max-width: 600px){
   #home-section {
     height: 62vh; /* Set the height of the section */
   }
+
+  .prev {
+
+    padding-left: 10px;
+  }
+  .next {
+
+    padding-right: 10px;
+  }
+  
 }
 
 @media (max-width: 550px){
@@ -950,6 +979,10 @@ footer {
 
   .blurb1 {
     font-size: 3.8vw !important;
+  }
+
+  .testimonial {
+    font-size: 15px;
   }
 }
 
@@ -973,10 +1006,35 @@ footer {
   .blurb1.hide-on-large-only {
     margin-top: 0px;
   }
+
+  .testimonial {
+    font-size: 14px;
+  }
+
+  .career-id {
+    font-size: 12px;
+  }
+
+  .prev {
+
+    padding-left: 5px;
+  }
+  .next {
+
+    padding-right: 5px;
+  }
 }
 
 @media (max-width: 370px){
   #home-section {
     height: 40vh; /* Set the height of the section */
+  }
+
+  .testimonial {
+    font-size: 13px;
+  }
+
+  .career-id {
+    font-size: 10px;
   }
 }
