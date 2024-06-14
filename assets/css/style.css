@@ -171,7 +171,6 @@ nav ul li:hover {
 }
 
 /* HOME SECTION */
-
 .overlay1 {
   font-size: 100px !important;
   color: #121212;
@@ -183,7 +182,7 @@ nav ul li:hover {
   font-weight: 400;
   color: #121212;
   letter-spacing: 7px;
-  padding: 64px 0 8px 0;
+  padding-top: 7vh;
 }
 
 #blurb1 {
@@ -192,9 +191,23 @@ nav ul li:hover {
 }
 
 /* PROJECTS SECTION  */
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-col {
+  display: flex;
+  flex-direction: column;
+}
 
 .card {
-  margin: 20px !important;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff; /* Set card background color */
+  border: 1px solid #ccc; /* Add border to the card */
+  margin: 0 10px 20px 0; /* Add margin to create space between cards */
 }
 
 .card-action {
@@ -222,7 +235,8 @@ nav ul li:hover {
   font-weight: 400;
   font-style: normal;
   text-align: left;
-  height: 220px;
+  flex-grow: 1;
+  padding: 20px; /* Add padding to the content */
 }
 
 /* SKILLS SECTION   */
@@ -794,240 +808,4 @@ footer {
 #proto-pic7:hover {
   filter: none;
   -webkit-filter: grayscale(0);
-}
-
-@media only screen and (max-width: 1319px) {
-  .card {
-    margin: 5px !important;
-  }
-}
-
-@media only screen and (max-width: 1283px) {
-  .overlay1 {
-    font-size: 85px !important;
-  }
-
-  .overlay2 {
-    font-size: 24px !important;
-    padding: 50px 0 8px 0;
-  }
-
-  #home-section {
-    height: 685px;
-  }
-}
-
-@media only screen and (max-width: 1233px) {
-  .card-content {
-    height: 250px;
-  }
-}
-
-@media only screen and (max-width: 1091px) {
-  .overlay1 {
-    font-size: 75px !important;
-  }
-
-  #home-section {
-    height: 660px;
-  }
-}
-
-@media only screen and (max-width: 1010px) {
-  .card-content {
-    height: 260px;
-  }
-}
-
-/* TABLET BREAKPOINT */
-@media only screen and (max-width: 992px) {
-  .card-content {
-    height: 230px;
-  }
-
-  .home-contents {
-    padding-left: 8vw !important;
-  }
-}
-
-@media only screen and (max-width: 882px) {
-  .overlay2 {
-    font-size: 22px !important;
-    padding: 40px 0 8px 0;
-  }
-
-  #home-section {
-    height: 560px;
-  }
-}
-
-@media only screen and (max-width: 835px) {
-  .overlay1 {
-    font-size: 70px !important;
-  }
-}
-
-@media only screen and (max-width: 740px) {
-  .overlay1 {
-    font-size: 67px !important;
-  }
-
-  .overlay2 {
-    font-size: 22px !important;
-    padding: 30px 0 8px 0;
-  }
-
-  #home-section {
-    height: 530px;
-  }
-}
-
-@media only screen and (max-width: 708px) {
-  .overlay1 {
-    font-size: 64px !important;
-  }
-  .overlay2 {
-    font-size: 20px !important;
-  }
-  
-  #home-section {
-    height: 520px;
-  }
-}
-
-@media only screen and (max-width: 680px) {
-  .overlay1 {
-    font-size: 56px !important;
-  }
-
-  #home-section {
-    height: 500px;
-  }
-
-  .card-content {
-    height: 280px;
-  }
-}
-
-/* MOBILE BREAKPOINT */
-@media only screen and (max-width: 600px) {
-  .card {
-    margin: 20px !important;
-  }
-  .card-content {
-    height: 200px;
-  }
-
-  .overlay1 {
-    font-size: 50px !important;
-  }
-
-  #home-section {
-    height: 470px;
-  }
-
-  .testimonial {
-    font-size: 20px;
-  }
-
-  h1 {
-    font-size: 32px !important;
-  }
-  
-  h2 {
-    font-size: 29px !important;
-  }
-  
-  h3 {
-    font-size: 26px !important;
-  }
-  
-  h4 {
-    font-size: 23px !important;
-  }
-  
-  h5 {
-    font-size: 20px !important;
-  }
-  
-  h6 {
-    font-size: 18px !important;
-  }
-  
-  p {
-    font-size: 16px !important;
-    line-height: 1.4 !important;
-  }
-}
-
-@media only screen and (max-width: 522px) {
-  .overlay1 {
-    font-size: 40px !important;
-  }
-
-  .overlay2 {
-    font-size: 18px !important;
-  }
-
-  #home-section {
-    height: 450px;
-  }
-
-  #blurb1 {
-   font-size: 16px !important;
-  }
-}
-
-@media only screen and (max-width: 468px) {
-  #home-section {
-    height: 470px;
-  }
-
-  .card-content {
-    height: 220px;
-  }
-}
-
-@media only screen and (max-width: 399px) {
-  .overlay1 {
-    font-size: 35px !important;
-  }
-  #home-section {
-    height: 450px;
-  }
-
-  .card-content {
-    height: 240px;
-  }
-}
-
-@media only screen and (max-width: 380px) {
-  #home-section {
-    height: 480px;
-  }
-}
-
-@media only screen and (max-width: 349px) {
-  .overlay1 {
-    font-size: 30px !important;
-  }
-  .overlay2 {
-    font-size: 16px !important;
-  }
-  #home-section {
-    height: 460px;
-  }
-
-  .card-content {
-    height: 280px;
-  }
-}
-
-@media only screen and (max-width: 299px) {
-  #home-section {
-    height: 500px;
-  }
-  .card-content {
-    height: 350px;
-  }
 }
