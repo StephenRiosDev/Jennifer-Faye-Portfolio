@@ -136,6 +136,8 @@ nav ul li:hover {
   background: linear-gradient(90deg, rgba(70,140,176,1) 0%, rgba(172,235,216,1) 100%);
   line-height: 1;
   margin-top: -80px;
+  position: relative;
+  height: 90vh; /* Set the height of the section */
 }
 
 #skills-section {
@@ -150,10 +152,6 @@ nav ul li:hover {
 }
 
 /* Center titles vertically */
-#home-section {
-  position: relative;
-  height: 90vh; /* Set the height of the section */
-}
 
 .home-contents {
   position: absolute;
@@ -166,23 +164,23 @@ nav ul li:hover {
 
 /* HOME SECTION */
 .overlay1 {
-  font-size: 7vw !important;
+  font-size: 6vw !important;
   color: #121212;
   margin-bottom: 0px;
 }
 
 .overlay2 {
-  font-size: 1.9vw !important;
+  font-size: 1.7vw !important;
   font-weight: 400;
   color: #121212;
   letter-spacing: 7px;
   padding-top: 7vh;
 }
 
-#blurb1 {
+.blurb1 {
   font-weight: 400 !important;
   color: #121212;
-  font-size: 1.7vw !important;
+  font-size: 1.5vw !important;
 }
 
 /* PROJECTS SECTION  */
@@ -202,7 +200,7 @@ nav ul li:hover {
   flex-direction: column;
   background-color: #fff; /* Set card background color */
   border: 1px solid #ccc; /* Add border to the card */
-  margin: 10px 10px 10px 10px; !important; /*Add margin to create space between cards */
+  margin: 10px 10px 10px 10px !important; /*Add margin to create space between cards */
 }
 
 .card-action {
@@ -285,6 +283,7 @@ nav ul li:hover {
 
 .career-id {
   color: #333333;
+  font-size: 20px;
 }
 
 blockquote {
@@ -797,49 +796,187 @@ footer {
   -webkit-filter: grayscale(0);
 }
 
-@media (max-width: 992px) {
-  /* .overlay1 {
-    font-size: 5.625em !important;
+@media (max-width: 1300px) {
+  .overlay1 {
+    font-size: 7vw !important;
   }
   
   .overlay2 {
-    font-size: 1.375em !important;
+    font-size: 1.9vw !important;
   }
   
-  #blurb1 {
-    font-size: 1.125em;
-  } */
+  .blurb1 {
+    font-size: 1.7vw !important;
+  }
 
-  body {
-    font-size: 1em !important; /* Equivalent to 16px */
-  }
-  
-  h1 {
-    font-size: 3.8125em !important; /* Approximately 61px / 16px = 3.8125em */
-  }
-  
-  h2 {
-    font-size: 3em !important; /* Approximately 48px / 16px = 3em */
-  }
-  
-  h3 {
-    font-size: 2.4375em !important; /* Approximately 39px / 16px = 2.4375em */
-  }
-  
-  h4 {
-    font-size: 1.9375em !important; /* Approximately 31px / 16px = 1.9375em */
-  }
-  
-  h5 {
-    font-size: 1.5625em !important; /* Approximately 25px / 16px = 1.5625em */
-  }
-  
-  h6 {
-    font-size: 1.25em !important; /* Approximately 20px / 16px = 1.25em */
+  #home-section {
+    height: 80vh; /* Set the height of the section */
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1150px) {
+  .overlay1 {
+    font-size: 7.5vw !important;
+  }
+  
+  .overlay2 {
+    font-size: 2vw !important;
+    padding-top: 6.5vh;
+  }
+  
+  .blurb1 {
+    font-size: 1.9vw !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .overlay1 {
+    font-size: 8vw !important;
+  }
+
+  .overlay2 {
+    font-size: 3vw !important;
+    line-height: 1.4;
+    padding-top: 6vh;
+  }
+
+  .blurb1.hide-on-large-only {
+    margin-top: -15px;
+  }
+  
+  .blurb1 {
+    font-size: 2.4vw !important;
+  }
+
+  .testimonial {
+    font-size: 22px;
+  }
+
+  .career-id {
+    font-size: 18px;
+  }
+
+  body {
+    font-size: 1em !important;
+  }
+  
+  h1 {
+    font-size: 3.8125em !important; 
+  }
+  
+  h2 {
+    font-size: 3em !important;
+  }
+  
+  h3 {
+    font-size: 2.4375em !important; 
+  }
+  
+  h4 {
+    font-size: 1.9375em !important;
+  }
+  
+  h5 {
+    font-size: 1.5625em !important;
+  }
+  
+  h6 {
+    font-size: 1.25em !important; 
+  }
+
+  .home-contents {
+    padding-left: 10vw;
+  }
+}
+
+@media (max-width: 950px) {
+  .overlay1 {
+    font-size: 8.75vw !important;
+  }
+
+  #home-section {
+    height: 75vh; /* Set the height of the section */
+  }
+}
 
 
+@media (max-width: 830px) {
+  .overlay2 {
+    font-size: 3.5vw !important;
+  }
+
+  .blurb1 {
+    font-size: 2.8vw !important;
+  }
+
+
+}
+
+@media (max-width: 750px) {
+  .overlay2 {
+    font-size: 3.8vw !important;
+  }
+
+  .blurb1 {
+    font-size: 3vw !important;
+  }
+
+
+}
+
+@media (max-width: 660px) {
+  #home-section {
+    height: 70vh; /* Set the height of the section */
+  }
+
+  .blurb1 {
+    font-size: 3.5vw !important;
+  }
+}
+
+@media (max-width: 600px){
+  #home-section {
+    height: 62vh; /* Set the height of the section */
+  }
+}
+
+@media (max-width: 550px){
+  #home-section {
+    height: 62vh; /* Set the height of the section */
+  }
+  .overlay2 {
+    font-size: 4vw !important;
+  }
+
+  .blurb1 {
+    font-size: 3.8vw !important;
+  }
+}
+
+@media (max-width: 450px){
+  #home-section {
+    height: 55vh; /* Set the height of the section */
+  }
+}
+
+@media (max-width: 400px){
+  #home-section {
+    height: 50vh; /* Set the height of the section */
+  }
+  .overlay2 {
+    font-size: 4vw !important;
+  }
+
+  .blurb1 {
+    font-size: 4vw !important;
+  }
+  .blurb1.hide-on-large-only {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 370px){
+  #home-section {
+    height: 40vh; /* Set the height of the section */
+  }
 }
