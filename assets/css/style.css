@@ -141,7 +141,6 @@ nav ul li:hover {
   background: rgb(70,140,176);
   background: linear-gradient(90deg, rgba(70,140,176,1) 0%, rgba(172,235,216,1) 100%);
   line-height: 1;
-  height: 800px;
   margin-top: -80px;
 }
 
@@ -156,27 +155,30 @@ nav ul li:hover {
   overflow: auto;
 }
 
-/* HOME SECTION */
-
-#jen1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 75px;
-  width: 20%;
-  border: 2px solid #031d2a;
+/* Center titles vertically */
+#home-section {
+  position: relative;
+  height: 90vh; /* Set the height of the section */
 }
 
-.overlay1 {
+.home-contents {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
   text-align: left;
-  margin-top: 32vh;
+  padding-left: 15vw;
+}
+
+/* HOME SECTION */
+
+.overlay1 {
   font-size: 100px !important;
   color: #121212;
   margin-bottom: 0px;
 }
 
 .overlay2 {
-  text-align: left;
   font-size: 28px !important;
   font-weight: 400;
   color: #121212;
@@ -186,8 +188,6 @@ nav ul li:hover {
 
 #blurb1 {
   font-weight: 400 !important;
-  text-align: left;
-  font-weight: 400;
   color: #121212;
 }
 
@@ -232,7 +232,7 @@ nav ul li:hover {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  background-color: whitesmoke;
+  background-color:whitesmoke;
 }
 
 .each-logo {
@@ -256,6 +256,15 @@ nav ul li:hover {
 } 
 
 /* ABOUT SECTION   */
+
+#jen1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+  width: 20%;
+  border: 2px solid #031d2a;
+}
 
 .text-block-a {
   display: block;
@@ -284,7 +293,7 @@ blockquote {
   overflow: hidden;
   margin: 0 auto;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
 }
 .testimonial {
   display: none;
@@ -293,7 +302,6 @@ blockquote {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%; 
-  padding: 20px;
   background-color: whitesmoke;
   font-size: 24px;
 }
@@ -308,7 +316,7 @@ blockquote {
   transform: translateY(-50%);
   cursor: pointer;
   font-size: 24px;
-  color: #333;
+  color: #031d2a;
   background-color: transparent;
   border: none;
   outline: none;
@@ -316,9 +324,31 @@ blockquote {
 }
 .prev {
   left: 0;
+  padding-left: 20px;
 }
 .next {
   right: 0;
+  padding-right: 20px;
+}
+
+.custom-button {
+  background-color: whitesmoke !important;
+  color: #031d2a !important;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  color:rgba(70,140,176,1) !important /* Change color on hover if needed */
+}
+
+.custom-button:focus {
+  outline: none; /* Remove focus outline */
+}
+
+.custom-button:active {
+  background-color: #bbb; /* Change color when clicked */
 }
 
 /* CONTACT SECTION */
@@ -774,7 +804,6 @@ footer {
 
 @media only screen and (max-width: 1283px) {
   .overlay1 {
-    margin-top: 27vh;
     font-size: 85px !important;
   }
 
@@ -788,20 +817,10 @@ footer {
   }
 }
 
-
 @media only screen and (max-width: 1233px) {
   .card-content {
     height: 250px;
   }
-}
-
-@media only screen and (max-width: 1130px) {
-
-  .overlay1 {
-    margin-top: 25vh;
-
-  }
-  
 }
 
 @media only screen and (max-width: 1091px) {
@@ -810,7 +829,7 @@ footer {
   }
 
   #home-section {
-    height: 670px;
+    height: 660px;
   }
 }
 
@@ -820,69 +839,18 @@ footer {
   }
 }
 
-
+/* TABLET BREAKPOINT */
 @media only screen and (max-width: 992px) {
-
-  .overlay1 {
-    margin-top: 23vh;
-
-  }
-
-  .overlay2 {
-    font-size: 22px !important;
-
-  }
-
   .card-content {
-    height: 200px;
+    height: 230px;
   }
 
-  #home-section {
-    height: 575px;
+  .home-contents {
+    padding-left: 8vw !important;
   }
-
-  h1 {
-    font-size: 48px !important;
-  }
-  
-  h2 {
-    font-size: 40px !important;
-  }
-  
-  h3 {
-    font-size: 33px !important;
-  }
-  
-  h4 {
-    font-size: 28px !important;
-  }
-  
-  h5 {
-    font-size: 23px !important;
-  }
-  
-  h6 {
-    font-size: 19px !important;
-  }
-  
-  p {
-    font-size: 16px !important;
-    line-height: 1.4 !important;
-  }
-}
-@media only screen and (max-width: 920px) {
-.card-content {
-  height: 230px;
-}
 }
 
 @media only screen and (max-width: 882px) {
-
-  .overlay1 {
-    margin-top: 21vh;
-
-  }
-
   .overlay2 {
     font-size: 22px !important;
     padding: 40px 0 8px 0;
@@ -894,30 +862,28 @@ footer {
 }
 
 @media only screen and (max-width: 835px) {
-
-
   .overlay1 {
     font-size: 70px !important;
   }
 }
-@media only screen and (max-width: 740px) {
-.overlay1 {
-  margin-top: 20vh;
-  font-size: 67px !important;
-}
-.overlay2 {
-  font-size: 22px !important;
-  padding: 30px 0 8px 0;
-}
 
-#home-section {
-  height: 530px;
-}
+@media only screen and (max-width: 740px) {
+  .overlay1 {
+    font-size: 67px !important;
+  }
+
+  .overlay2 {
+    font-size: 22px !important;
+    padding: 30px 0 8px 0;
+  }
+
+  #home-section {
+    height: 530px;
+  }
 }
 
 @media only screen and (max-width: 708px) {
   .overlay1 {
-    margin-top: 20vh;
     font-size: 64px !important;
   }
   .overlay2 {
@@ -927,12 +893,10 @@ footer {
   #home-section {
     height: 520px;
   }
-  }
+}
 
 @media only screen and (max-width: 680px) {
-
   .overlay1 {
-    margin-top: 19vh;
     font-size: 56px !important;
   }
 
@@ -945,6 +909,7 @@ footer {
   }
 }
 
+/* MOBILE BREAKPOINT */
 @media only screen and (max-width: 600px) {
   .card {
     margin: 20px !important;
@@ -954,12 +919,15 @@ footer {
   }
 
   .overlay1 {
-    margin-top: 18vh;
     font-size: 50px !important;
   }
 
   #home-section {
     height: 470px;
+  }
+
+  .testimonial {
+    font-size: 20px;
   }
 
   h1 {
@@ -992,16 +960,8 @@ footer {
   }
 }
 
-@media only screen and (max-width: 572px) {
-
-}
-
-
-
-
 @media only screen and (max-width: 522px) {
   .overlay1 {
-    /* margin-top: 18vh; */
     font-size: 40px !important;
   }
 
@@ -1018,10 +978,6 @@ footer {
   }
 }
 
-@media only screen and (max-width: 511px) {
-
-}
-
 @media only screen and (max-width: 468px) {
   #home-section {
     height: 470px;
@@ -1032,13 +988,8 @@ footer {
   }
 }
 
-@media only screen and (max-width: 425px) {
- 
-}
-
 @media only screen and (max-width: 399px) {
   .overlay1 {
-    /* margin-top: 18vh; */
     font-size: 35px !important;
   }
   #home-section {
@@ -1056,13 +1007,8 @@ footer {
   }
 }
 
-@media only screen and (max-width: 358px) {
-  
-}
-
 @media only screen and (max-width: 349px) {
   .overlay1 {
-    /* margin-top: 18vh; */
     font-size: 30px !important;
   }
   .overlay2 {
@@ -1077,12 +1023,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 312px) {
-
-}
-
 @media only screen and (max-width: 299px) {
-
   #home-section {
     height: 500px;
   }
