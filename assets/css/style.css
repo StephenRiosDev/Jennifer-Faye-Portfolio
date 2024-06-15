@@ -444,10 +444,7 @@ p.little-sub {
 }
 
 #redo-pic1 {
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
- width: 30vw;
+  width: 90%;
   float: right;
   margin-top: 6vh;
 }
@@ -461,11 +458,11 @@ p.little-sub {
 
 .top-wrapper {
   margin-top: 20vh;
-  height: 560px;
+  height: 600px;
 }
 
 #case {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   width: 100%;
   margin-top: -100px;
 }
@@ -476,11 +473,11 @@ p.little-sub {
 }
 
 .survey-wrapper {
-  padding: 0px 50px 20px 50px;
+  padding: 0px 50px 0px 50px;
 }
 
 .persona-wrapper {
-  padding: 0px 0px 40px 0px;
+  padding: 0px 0px 20px 0px;
 }
 
 .survey-pics {
@@ -640,13 +637,10 @@ p.little-sub {
 
 /* CRAIGSLIST REDESIGN PAGE */
 #mockup-phone {
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
-  width: 70vh;
+  width: 90%;
   float: right;
   border-radius: 2px;
-  margin-top: 6vh;
+  margin-top: 7vh;
 }
 
 #mockup-responsive {
@@ -668,11 +662,11 @@ p.little-sub {
 }
 
 .c-og {
-  margin: 30px;
+  /* margin: 30px; */
   border-radius: 12px;
   border: 3px solid !important;
   border: outset #000000;
-  width: 12vw;
+  width: 80%;
 }
 
 .before {
@@ -708,12 +702,6 @@ p.little-sub {
 }
 .phone {
   width: 75%;
-}
-
-.C-wrap {
-  display: flex;
-  align-items: center;  /*   vertical centering   */
-  justify-content: center; /* horizontal centering */
 }
 
 .m-bottom {
@@ -759,19 +747,9 @@ p.little-sub {
   -webkit-filter: grayscale(0);
 }
 
-@media (max-width: 1420px) {
-  .top-wrapper {
-    height: 530px;
-  }
 
-  #redo-pic1 {
-    width: 35vw;
-  }
-}
-
-@media (max-width: 1400px) {
+@media (max-width: 1450px) {
   #mockup-phone {
-    width: 60vh;
     margin-top: 9vh;
   }
 }
@@ -790,20 +768,21 @@ p.little-sub {
   }
 
   #home-section {
-    height: 80vh; /* Set the height of the section */
+    height: 80vh;
+  }
+
+  #redo-pic1 {
+    width: 100%;
+    margin-top: 7vh;
+  }
+
+  #mockup-phone {
+    width: 90%;
+    margin-top: 11vh;
   }
 }
 
-@media (max-width: 1228px) {
-  #redo-pic1 {
-    width: 35vw;
-  }
-    
-  #mockup-phone {
-    width: 50vh;
-    margin-top: 12vh;
-  }
-}
+
 
 @media (max-width: 1150px) {
   .overlay1 {
@@ -820,10 +799,13 @@ p.little-sub {
   }
 }
 
-@media (max-width: 1100px) {
-  #mockup-phone {
-    width: 40vh;
+@media (max-width: 1075px) {
+  #redo-pic1 {
+    width: 100%;
+    margin-top: 15vh;
   }
+
+
 }
 
 @media (max-width: 992px) {
@@ -905,7 +887,8 @@ p.little-sub {
   }
 
   .top-wrapper {
-    height: 870px;
+
+    height: 880px;
   }
 
   .text-emphasis {
@@ -915,6 +898,10 @@ p.little-sub {
   .persona-pics {
     padding: 0px;
   }
+
+  .mood-pics {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 950px) {
@@ -923,7 +910,7 @@ p.little-sub {
   }
 
   #home-section {
-    height: 75vh; /* Set the height of the section */
+    height: 75vh; 
   }
 }
 
@@ -967,7 +954,7 @@ p.little-sub {
 
 @media (max-width: 660px) {
   #home-section {
-    height: 70vh; /* Set the height of the section */
+    height: 70vh; 
   }
 
   .blurb1 {
@@ -1017,9 +1004,8 @@ p.little-sub {
   }
 
   #home-section {
-    height: 62vh; /* Set the height of the section */
+    height: 62vh;
   }
-
   .prev {
     padding-left: 10px;
   }
@@ -1039,11 +1025,16 @@ p.little-sub {
   #proto-pic1, #proto-pic2, #proto-pic3 {
     width: 40%;
   }
+
+  .persona-pics {
+    padding: 10px;
+  }
 }
+
 
 @media (max-width: 550px){
   #home-section {
-    height: 62vh; /* Set the height of the section */
+    height: 62vh; 
   }
 
   .overlay2 {
@@ -1074,7 +1065,7 @@ p.little-sub {
 
 @media (max-width: 450px){
   #home-section {
-    height: 55vh; /* Set the height of the section */
+    height: 55vh; 
   }
 
   .top-wrapper {
@@ -1084,7 +1075,7 @@ p.little-sub {
 
 @media (max-width: 400px){
   #home-section {
-    height: 50vh; /* Set the height of the section */
+    height: 50vh; 
   }
 
   .overlay2 {
@@ -1122,7 +1113,7 @@ p.little-sub {
 
 @media (max-width: 370px){
   #home-section {
-    height: 40vh; /* Set the height of the section */
+    height: 40vh;
   }
 
   .testimonial {
@@ -1142,4 +1133,4 @@ p.little-sub {
   .top-wrapper {
     height: 570px;
   }
-}
+} 
