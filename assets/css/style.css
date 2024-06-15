@@ -907,6 +907,14 @@ p.little-sub {
   .top-wrapper {
     height: 870px;
   }
+
+  .text-emphasis {
+    font-size: 28px !important;
+  }
+
+  .persona-pics {
+    padding: 0px;
+  }
 }
 
 @media (max-width: 950px) {
@@ -1023,6 +1031,14 @@ p.little-sub {
   .top-wrapper {
     height: 675px;
   }
+
+  .text-emphasis {
+    font-size: 22px !important;
+  }
+
+  #proto-pic1, #proto-pic2, #proto-pic3 {
+    width: 40%;
+  }
 }
 
 @media (max-width: 550px){
@@ -1049,6 +1065,10 @@ p.little-sub {
 @media (max-width: 500px){
   .top-wrapper {
     height: 625px;
+  }
+
+  #proto-pic1, #proto-pic2, #proto-pic3 {
+    width: 60%;
   }
 }
 
