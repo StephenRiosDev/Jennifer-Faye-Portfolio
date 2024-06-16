@@ -749,6 +749,13 @@ p.little-sub {
   -webkit-filter: grayscale(0);
 }
 
+.vid-wrapper {
+  background-color: whitesmoke;
+  margin-top: 40px;
+  padding-top: 2px;
+  padding-bottom: 50px;
+}
+
 
 @media (max-width: 1450px) {
   #mockup-phone {
@@ -797,9 +804,6 @@ p.little-sub {
   }
 }
 
-
-
-
 @media (max-width: 1150px) {
   .overlay1 {
     font-size: 7.5vw !important;
@@ -813,6 +817,10 @@ p.little-sub {
   .blurb1 {
     font-size: 1.9vw !important;
   }
+
+  .testimonial {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1075px) {
@@ -820,8 +828,6 @@ p.little-sub {
     width: 100%;
     margin-top: 15vh;
   }
-
-
 }
 
 @media (max-width: 992px) {
@@ -860,10 +866,6 @@ p.little-sub {
   
   .blurb1 {
     font-size: 2.4vw !important;
-  }
-
-  .testimonial {
-    font-size: 20px;
   }
 
   .career-id {
@@ -925,6 +927,10 @@ p.little-sub {
 
   #S-System {
     padding: 10px 0 10px 0;
+  }
+
+  video {
+    width: 500px;
   }
 }
 
@@ -995,6 +1001,10 @@ p.little-sub {
 
   .top-wrapper {
     height: 725px;
+  }
+
+  video {
+    width: 475px;
   }
 }
 
@@ -1107,6 +1117,7 @@ p.little-sub {
     height: 650px;
   }
 }
+
 @media (max-width: 500px){
   .top-wrapper {
     height: 625px;
@@ -1114,6 +1125,10 @@ p.little-sub {
 
   #proto-pic1, #proto-pic2, #proto-pic3 {
     width: 60%;
+  }
+
+  video {
+    width: 450px;
   }
 }
 
@@ -1124,6 +1139,10 @@ p.little-sub {
 
   .top-wrapper {
     height: 600px;
+  }
+
+  video {
+    width: 400px;
   }
 }
 
@@ -1163,6 +1182,10 @@ p.little-sub {
   .top-wrapper {
     height: 575px;
   }
+
+  video {
+    width: 350px;
+  }
 }
 
 @media (max-width: 370px){
@@ -1180,6 +1203,14 @@ p.little-sub {
 
   .top-wrapper {
     height: 550px;
+  }
+
+ 
+}
+
+@media (max-width: 320px){
+  video {
+    width: 320px;
   }
 }
 
